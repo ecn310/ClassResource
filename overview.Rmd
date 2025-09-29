@@ -1,0 +1,39 @@
+# Course & Project Overview
+
+## What will ECN 310 do for you?
+
+1. provide education in, and tools for, research;
+2. give you context and background for econometrics courses (ECN 422 or ECN 521/522);
+3. engage you in research experiences;
+4. connect you to mentoring so you can take advantage of the full range of research opportunities offered by the Economics Department;
+5. provide recommendations to faculty offering research opportunities, including our economics distinction and B.S./M.A. programs;
+6. help you think about research-related education and career paths.
+
+## Course objectives: what you will do in ECN 310
+
+1. Learn the steps involved in conducting economic research;
+2. Utilize economic theory to frame analysis of research questions;
+3. Become familiar with simple statistics and apply to economic analysis;
+4. Select a research question of interest, write a literature review and formulate a hypothesis;
+5. Collect, clean, visualize and analyze relevant data using descriptive statistics;
+6. Interpret results, draw conclusions, communicate findings, and document the research process.
+
+## What is economic research?
+
+Remler & Van Ryzin’s definition:
+
+- “A social and intellectual activity that involves systematic inquiry aimed at accurately describing and explaining the world”
+
+
+Primary research (our focus), aims to establish new facts and reach new conclusions to create knowledge
+
+- That is, it pushes out the frontier of what is already known
+- It is heavily influenced by the perspectives of the researcher
+
+The process of research...
+
+- involves the collection, organization, and analysis of information
+- is fundamentally creative
+- requires critical thinking
+- is iterative, non-linear, less straightforward than a lot of coursework
+- is  a social and intellectual activity that involves systematic inquiry aimed at accurately describing and explaining the world.

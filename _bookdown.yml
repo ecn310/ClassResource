@@ -5,4 +5,4 @@ edit: https://github.com/ryanpseely/ClassResource/edit/main/%s
 view: https://github.com/ryanpseely/ClassResource/blob/main/%s
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Section "
