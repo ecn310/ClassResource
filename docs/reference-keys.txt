@@ -1,12 +1,13 @@
 contents
-a-caucus-race-and-a-long-tale
-file-management
+course-project
+team-contract
+step-1
 course-project-overview
 what-will-ecn-310-do-for-you
 course-objectives-what-you-will-do-in-ecn-310
 what-is-economic-research
 stata
-file-management-1
+file-management
 opening-data-in-stata
 point-and-click-import-wizard
 using-a-line-of-code
@@ -14,3 +15,4 @@ running-code
 note-on-stata-instances
 three-ways-to-obtain-information-using-stata
 using-do-files
+exercise-gss-mini-report
