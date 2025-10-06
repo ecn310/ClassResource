@@ -16,3 +16,7 @@ note-on-stata-instances
 three-ways-to-obtain-information-using-stata
 using-do-files
 exercise-gss-mini-report
+course-project-overview-1
+what-will-ecn-310-do-for-you-1
+course-objectives-what-you-will-do-in-ecn-310-1
+what-is-economic-research-1

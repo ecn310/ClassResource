@@ -47,33 +47,15 @@ Note that you can NEVER have two datasets open at the same time in the same inst
 ### Three ways to obtain information using Stata
 
 1.  Execute command from a do-file
+  i.  Type the command in the do-file
+  ii. Highlight the command
+  iii. Hit “Control+D”
 
-```{=html}
-<!-- -->
-```
-i.  Type the command in the do-file
-ii. Highlight the command
-iii. Hit “Control+D”
-
-```{=html}
-<!-- -->
-```
 2.  Execute command in the Command Window
-
-```{=html}
-<!-- -->
-```
 i.  Type the command in the Command Window
 ii. Press enter
 
-```{=html}
-<!-- -->
-```
 3.  Execute the command using a menu
-
-```{=html}
-<!-- -->
-```
 i.  Click on the appropriate menu (e.g. Graphics)
 ii. Choose the command (e.g. Pie Chart)
 iii. Fill in the dialog box
