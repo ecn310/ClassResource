@@ -6,3 +6,11 @@ view: https://github.com/ryanpseely/ClassResource/blob/main/%s
 language:
   ui:
     chapter_name: "Section "
+rmd_files:
+  - index.Rmd
+  - overview.Rmd
+  - CourseProject.Rmd
+  - GitHub.Rmd
+  - LitTheory.Rmd
+  - stata.Rmd
+  - exercises.Rmd

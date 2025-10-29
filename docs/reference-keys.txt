@@ -1,10 +1,11 @@
 contents
+course-project-overview
+what-will-ecn-310-do-for-you
+course-objectives-what-you-will-do-in-ecn-310
+what-is-economic-research
 course-project
 team-contract
 step-1
-exercises
-gss-mini-report
-synching-to-github-desktop
 github
 collaboration-documentation-on-github
 github-desktop
@@ -17,10 +18,7 @@ paper-summaries
 paper-summary-one
 paper-summary-two
 theorizing
-course-project-overview
-what-will-ecn-310-do-for-you
-course-objectives-what-you-will-do-in-ecn-310
-what-is-economic-research
+theory-models-and-research-questions
 stata
 coding
 file-management
@@ -31,4 +29,8 @@ running-code
 note-on-stata-instances
 three-ways-to-obtain-information-using-stata
 using-do-files
-theory-models-and-research-questions
+exercises
+gss-mini-report
+synching-to-github-desktop
+synching-to-github-desktop-exercise
+gss-mini-report-accessing-visualizing-data

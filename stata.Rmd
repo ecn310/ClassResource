@@ -80,3 +80,88 @@ Use a do-file if...
 1.  You’re likely to do something similar in the future. Do-files let you save, revise, and rerun commands.
 2.  You’re going the use anything your code produces. Do-files and the comments within them are a key form of documentation
 3.  You’re going to share the code or product with anyone
+
+
+## GSS Mini Report: Accessing & Visualizing Data
+
+**Task**
+
+Working in your “GSS Mini Research Report Team”:
+
+1.  Pick one variable from the 2016 General Social Survey (GSS2016.dta) that makes sense in a pie chart
+2.  Enter the variable name in PollEverywhere
+
+-   Your team’s variable must be unique
+-   Both team members should submit it
+
+3.  Make the pie chart in Stata
+4.  Save it wherever you want on your computer, as .png or .jpg (NOT as a Stata graph—nothing except Stata can open those)
+5.  Go to the “First (mini) research report” issue on the exercises repo, <https://github.com/ecn310/exercises/discussions/4>
+6.  Write and submit your report on the Github discussion
+
+-   One report per team
+-   Instructions are in the first post
+-   I’ll put an example in the first comment on the issue
+
+**How to access and analyze the data**
+
+1.  Navigate to the exercises repo on Github
+2.  In the list toward the left of the screen, click on GSS2016.dta
+3.  Click on "View raw" or the download symbol all the way on the right of the gray "Code" bar
+4.  Save the file to your computer, noting the location you save it to
+5.  Navigate to where you saved the file and double-click on it (this only opens Stata because it’s a .dta)
+6.  Explore the data in Stata. Use `browse` to see the data, use `describe` or `describe, short` to get a summary of the data file.
+7.  Explore one variable by using `codebook varname`, where you input the name of your variable where "varname" is to get an understanding of your variable. Use `tabulate varname` to see what the observations for that variable look like.
+
+**Make a pie graph**
+
+-   Use `graph pie, over(worryjob)` to make a pie chart.
+
+    -   Use `help graph pie` to view documentation on the `graph pie` command.
+
+-   Use `graph pie, over(worryjob) title("How many people worry about losing their job?")` to add a title.
+
+-   Use `graph pie, over(worryjob) title("How many people worry about losing their job?") plabel(_all percent)`to add percentages
+
+-   Finally, use `graph export "C:\Users\...\pie_worryjob.png",as(png), replace` to save the graph as an image file. Ensure that you fill in the “…” to match the file path on your computer.
+
+**Understand and apply syntax for saving a file**
+
+-   `graph export` is the command to save a graph
+-   `"C:\Users\krist\OneDrive - Syracuse University\ECN_310\pie_worryjob.png"` is the path and file name ON PROFESSOR BUZARD’S COMPUTER, not on yours! You need to customize!
+-   `,` is the required comma between command and options
+-   `as(png)` is the option that saves the file in PNG format
+-   `replace` is the option to write over any existing file in the same location with the same name
+
+
+**Mini Report Improvements**
+
+1. Go to the “First (mini) research report” discussion on the exercises repo
+2. Can anything else be improved? How about making the pie chart smaller?
+3. Make .do file that produces the image in your post (detailed instructions on next slide)
+4. Upload your do-file to the GSS_mini_report folder (detailed instructions in two slides)
+5. As a reply (leave your original post alone!!!) to your
+original comment, post improved version:
+- image is smaller;
+- image matches .do file;
+- has new sentence at the bottom that says something like “The code that created this pie chart is here” where “here” is a link.
+
+You will make a .do file that produces the image in your post. Professor Buzard will run it and make sure your code works/matches what’s in your post. Start by...
+- Opening Stata, choose Window menu, then Do-File Editor, then New Do-File Editor
+- The first line of your .do file should be the command to open the data
+- Insert code to produce the same pie chart from last week
+- End the file with command to save the pie chart at end
+-  Save file as name1_name2.do (e.g., Dylan_Soph.do) to your computer
+- Then, upload your do-file to the GSS_mini_report folder:
+  - Navigate to GSS_mini report folder of the exercises repository
+  - Above the list of files, select the Add file dropdown menu and click Upload files.
+    - Alternatively, you can drag and drop files into your browser.
+  - To select your do-file for upload, drag and drop the file, or click choose your files
+  - In the "Commit message" field, type a short, meaningful commit message
+  - Below the commit message fields, choose “Commit directly to the main branch”
+  - Click “Commit changes”
+  - Refresh the GSS_mini_report page and click on your file to make sure it looks right
+  - Copy the url to add to your post on the discussion
+  
+  
+

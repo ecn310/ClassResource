@@ -180,3 +180,21 @@ Learning objectives:
 5. Identify the independent and dependent variables, as well as the unit of analysis, in a particular theory
 6. Understand the causal mechanisms that connect independent variables to dependent variables--and how they can be represented in a model as intervening variables
 
+Recognize how theories and models are useful in guiding research. In applied social research, a theory...
+
+- is a causal explanation, guided by reasoning or evidence, of how some aspect of the social world works.
+- is a reasoned and precise speculation about the answer to a research question, including a statement about why the proposed answer is correct.
+- helps us identify and take notice of key variables that we should measure or observe.
+- and a bunch more!
+
+A causal mechanism is made explicit in a causal diagram by adding moderator variables.
+
+
+Understand and explain the following basic concepts: variable, variation (cross-sectional and longitudinal), sign of a relationship (positive and negative), and hypothesis:
+
+The sign of a relationship...
+
+- is  positive when independent and dependent variables move in the same direction.
+- indicates whether or not two variables move or covary in the same or opposite directions.
+- is NOT the same as the causal direction of a relationship, which is represented by arrows in a causal diagram.
+

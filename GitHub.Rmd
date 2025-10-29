@@ -39,3 +39,51 @@ Instructions are here to download Github desktop
 - Look at new commit and new folder on Github UI (website)
 
 Note: it is best to have your GitHub folders within OneDrive.
+
+## Synching to GitHub Desktop Exercise
+
+1. Click on Current repository near the top left of Github Desktop.
+
+- If exercises is in the list, click on it
+- If exercises is NOT in the list but you think you cloned the exercises repo last Wednesday (that is, the folder is somewhere on your computer):
+  - Click File, click Add local repository, navigate to the folder, click Add repository
+  - Don’t give up too easily searching for it. 50% of Github problems come from accidentally downloading the same repo to multiple locations—do everything you can to avoid this
+- If you didn’t clone the exercises repo yet:
+  - Click File, click Clone Repository, enter URL of your repo, choose where to save it (again, I suggest on OneDrive), click Clone
+
+2. Make sure your “current repository” is set to exercises and synch
+
+- Leave “current branch” set to main
+- Look at the box to the right of “current branch”
+  - It may say “Pull origin” or “Fetch origin”
+  - Regardless, click the button.
+  - Wait for Github Desktop to sync your files.
+  - If it doesn’t sync the first time, click the button one more time
+- Once that third box says “Fetch origin; Last fetched just now”, click “History” toward the left of your screen
+  - This shows the same commit history as on the web interface
+  - Verify by clicking “View on Github” in the middle of the screen
+- Click “Show in Explorer” in the middle of your screen
+  - This will show you all the files on your local computer, and they should match what you see on the web interface.
+
+3. Create a new .do file, save to local exercises repo
+
+- Add just one line of text, something like “I’m going to upload this .do file to Github!”
+  - Add an asterisk at the beginning of the line; this will make it turn green—it’s a “comment” in the code
+- Save the file as yourname.do (e.g., Ryan.do) in the push_to_Github folder in the exercises repo ON YOUR COMPUTER
+- In Github Desktop, Changes on the left of the screen should now have a little “1” in a circle, and your file showing up below with a green plus sign next to it
+
+
+4. Use Github Desktop to upload a file
+- In Github desktop:
+  - Write a commit message near the bottom left, in the line above “Description.”
+  - Make it something specific, like “Add Ryan’s .do file for push-to- Github assignment”
+  - You can leave the “Description” box blank—unless you need to add more detail to your commit message
+- Click Commit to main
+- Click Push origin
+- Click View on Github
+- Navigate to the Push_to_Github folder
+- Verify that your “push” worked by clicking on your file name and viewing its contents.
+- If it’s there and has a line of content, you’re done!
+
+
+
