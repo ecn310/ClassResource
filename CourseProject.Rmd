@@ -1,8 +1,9 @@
 # Course Project
 
-## Team Contract
+## Teamwork and team dynamics
 
-### Step 1
+### Building the team contract
+
 
 In your project teams:
 
@@ -12,3 +13,37 @@ last slide)
 -  Soon, you’ll create an .md file in your team’s project repo (a single contract for the whole team) called team_contract.md
 - You will also finalize the contract on Wednesday
 - You can start drafting the .md file today if you want to explore. If you do, link to the .md file in your new issue
+
+### Project Team Check-Ins
+
+Someone creates a Discussion on your team’s Github repo
+
+– Name it “*Month Day* Team Check-in”.
+– Make sure to link to it in your project log for today
+  - Each member: add a comment with three bullets:
+  - Something someone did to help the team this week: ___
+  - Something I could have done better for the team this week: ____
+  - An area/suggestion for team improvement: ____
+- As a group: discuss the posts
+- It’s fair to point out something someone did/didn’t do that they didn’t include at this point, but you must state it in “I” terms
+- Someone replies in a new comment at the end to summarize your discussion
+- Where is your team in the storming/norming/performing stages?
+- You can revise your team contract as long as each team member agrees and signs via a Github commit
+
+
+## Project Data Check-In
+
+You will have to write documenation for your team's project data that will include...
+
+- Short description of the data
+  - Includes number of variables, number of observations for each data set (you may have more than one data set)
+- Explanation of where the data comes from / how someone can acquire it / where you have stored it
+- List of key variables you may use for testing your hypothesis
+  - How you will link different data sets together if necessary
+
+You will need to answer...
+
+Has our team already accessed all the data we need?
+
+- (If not) Do we have a plan to access it?
+- (If not) What do we need to be able to make a plan?
