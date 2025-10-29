@@ -1,0 +1,182 @@
+# Literature Review and Economic Theory
+
+## Objectives:
+
+1. Understand why and how researchers perform a literature review
+2. Distinguish between popular and scholarly literature
+3. Understand the usefulness of both browsing and keyword searching
+
+
+Note that your lit review will be relatively short and narrow compared to a literature review in a full paper. You’ll start with suggested papers from your faculty sponsor.
+
+## Finding Appropriate Papers
+
+The papers in your lit review should be scholarly economics papers, but how do you tell if it’s an economics paper?
+
+- Look at journal or where working papers are posted
+- Published economics papers will almost certainly be in journals on this [list](https://ideas.repec.org/top/top.journals.simple.html)
+-  Look at authors’ websites.
+- Does at least one author have a Ph.D in economics?
+- Does at least one author work as a professor of economics or as an economist in some organization (government, think tank, etc)?
+
+**Key Word Searching**
+
+We don’t need a full-fledged search strategy because our faculty members have given us somewhere to start. However, different project teams will likely need to use different parts of the search strategies outlined in the book
+
+- You’ll start by browsing the sources provided by your faculty sponsor
+  - These are already in your project’s Github repo
+- Navigate to the discussion Prof. Buzard created on your team repo
+  - These will probably contain useful citations for you to follow up on
+  - You will also do a “forward citation” search
+- Go to scholar.google.com (not in Greenlaw) and enter the title of one of the papers provided for your project
+  - Click “Cited by” for a list of other papers that cite this one
+- Keyword search in JEP, JEL (page 34, Greenlaw) and EconLit (page 35, Greenlaw) will likely be useful to search in addition to Google Scholar
+
+
+### How to Make Sense of Published Research
+
+**Learning objectives**
+
+1. Acknowledge the challenges inherent in learning to read published research
+2. Explain the format of empirical research studies in economics
+3. Understand what is involved in evaluating the argument of an empirical paper
+4. Employ Greenlaw’s “Tips for Getting Through a Scholarly Journal Article.”
+5. Learn the basics of taking research notes and writing abstracts
+
+The format of an empirical research paper must include the following components:
+
+1. Introduction
+- Sometimes there will be a separate section for lit review
+2. Analysis of the problem / theory / conceptual framework
+- Sometimes there will NOT be a separate theory section
+- Sometimes theory comes after empirics
+3. Empirical test
+- Often results is separate from the framework/design; sometimes called something else (e.g., “results”)
+4. Conclusion
+
+Understand what is involved in evaluating the argument of an empirical paper: 
+
+- You don’t always need to go as in-depth in reading a paper as what Greenlaw describes.
+- You consult different papers at different times for different purposes
+- Employ Greenlaw’s “Tips for Getting Through a Scholarly Journal Article.”
+  - Skip almost all the math and statistics (econometrics)
+  - Most people with Ph.D.s will skip this for the vast majority of papers they “read”
+
+Learn the basics of taking research notes and writing abstracts:
+- Your speed and depth of reading should vary
+  - It depends on what your goal is
+- For the first paper summary, focus mainly on the introduction to figure out what the research questions and hypotheses are
+  - This is because we want to use that information to help you formulate your research hypotheses
+  - Our goal is not to do a full literature review
+- A full lit review will also include focus on the results
+  - The first paper summary is part of what would be in an annotated bibliography (no results and no critique yet)
+- You do not need to print out all the articles you read
+– If you’re happy working from electronic copies, that’s fine!
+– But you need to catalog them in an organized fashion, with links and/or PDFs (in particular, keep any PDF you’ve annotated)
+
+
+
+## Appropriate Use of Artificial Intelligence for Literature Reviews
+
+- AI can be helpful with your paper summaries, but it can go disastrously wrong whenever you’re dealing with academic papers
+- The rate of hallucination (making things up) is VERY high
+- You have good papers to start from: forward/reverse cite searches are generally going to be better than AI for finding other valuable papers
+- You can ask AI to find the research questions / hypotheses / theory in the introduction
+- But this is only a start—you need to verify that what it suggests is actually in the text, and whether it actually make sense in context
+- You can write something and THEN ask AI to propose some ways to make your statement clearer
+- But you still need to write the first attempt and verify the suggestion from AI makes sense
+- Similarly, you can ask AI to help fix your mermaid code or make it fancier, but NOT to write it for you from scratch
+
+
+## Paper Summaries
+
+### Paper Summary One
+
+Even within the reading, you’ll be doing just part of what Greenlaw explains: focus mainly on the introduction of the paper to figure out what the research questions and hypotheses are.
+
+- This is because we want to use that information to help you formulate your research hypotheses
+- Our goal right now is not to do a full literature review
+- For the assignment on Wednesday, what you’ll do is part of an abstract or what would be in an annotated bibliography (no results and no critique yet)
+
+For your first paper summary:
+
+- Provide full citation
+- Choose a citation style (last page of Greenlaw Ch. 3) that you like; maybe match what’s used in a paper your sponsor shared
+- Use Google Scholar shortcut to format it
+- Include a URL to the paper if possible. Otherwise, you’ll need to upload a PDF to a folder called “Lit review” on your project repo
+- Explain how you found it (In this case, “Professor ___ suggested it to us.”)
+- What is the big picture question of the paper?
+- What is the specific question / research hypothesis?
+- NEXT WEEK: Include any theory / conceptual framework and research hypotheses (direct quotes if you want—just put them in quotes)]
+
+**Paper Summary One Example:**
+
+Kahn, L. B. (2010). The long-term labor market consequences of graduating from college in a bad economy. Labour economics, 17(2), 303-316. [Link.](https://www.sciencedirect.com/science/article/pii/S0927537109001018)
+
+- How I found this paper: suggested by Professor Zhu
+- Big picture question: What are the effects of graduating college in a poor economy and how long do these negative effects persist?
+  - Hypothesis: The economic conditions at the time of college graduation, specifically for white males, can impact their ability to find work for the first two decades of their careers.
+- Specific question: When graduating in a poor economy, are graduates more likely to experience job mismatching and/or experience long-term effects from entering the labor market during a bad time?
+  - Hypothesis: If graduating in a worse-off economy, graduates will be more likely to experience job mismatching as there are fewer opportunities available and will suffer higher unemployment rates from the labor market conditions.
+  
+**Note:** Review article vs. actual frontier research...In order to extract relevant theories from the papers you are reading, it will be more useful to read actual frontier research papers (one study/experiment on a topic with more limited scope) than a review article (also called meta-analyses, compile frontier research papers and review their findings).
+
+### Paper Summary Two
+
+For your Second Paper Summary, you will ADD a second paper in the same place you wrote the first paper summary & revise first summary
+- Add research question at the top of the document
+- Provide full citation
+  - Use same citation style as for first paper
+- Include a URL to the paper or upload a PDF to a “Lit_review” folder on your project repo
+- Explain how you found the article
+- What is the big picture question of the paper?
+- What is the specific question and research hypothesis?
+- For one of the papers: What theory / conceptual framework
+supports the research hypothesis?
+- Include in words and also in a causal diagram (more on Wednesday)
+ - Add AI Disclosure Statement (another resource here)
+
+
+## Theorizing
+
+Theorizing or Conceptualizing the Research (Greenlaw, Ch. 7).
+
+Learning Objectives:
+
+1. Understand what it means to apply theory to a research topic
+2. List the elements involved in formal theorizing
+3. Explain the steps involved in narrative reasoning
+4. Summarize the characteristics of a good research hypothesis
+
+**Goal:** formulate research hypothesis/hypotheses that are founded on economic theories
+
+**Shortcut:** learn about potential conceptual frameworks / theories from the papers in your lit review
+
+What makes a good research hypothesis? (From Greenlaw, page 135)
+
+1. stated clearly and specifically in a way that can't be misinterpreted.
+2. able to discriminate clearly from alternative hypotheses.
+3. capable of being proved false.
+4. empirically testable (and nontrivial); that is, there must be reasonable statistical means and reasonable data available for testing it.
+5. must be derived from the theoretical analysis.
+
+Example hypotheses:
+
+- From Greenlaw: “The demand for jewelry depends negatively on the price.”
+- From ChatGPT:
+  - "Countries that invest more in research and development (R&D) experience faster economic growth than those that do not.“
+  - "Trade liberalization leads to an increase in income inequality in developing countries."
+  - "Raising the minimum wage leads to a reduction in employment among low-skilled workers.“
+  - "People save more when they are automatically enrolled in savings programs rather than when they have to opt in."
+
+### Theory, Models, and Research Questions
+
+Learning objectives:
+
+1. Recognize how theories and models are useful in guiding research
+2. Learn how to use a theory to explain an outcome of interest
+3. Learn how to use a model to express a theory
+4. Understand and explain the following basic concepts: variable, variation (cross-sectional and longitudinal), sign of a relationship (positive and negative), and hypothesis
+5. Identify the independent and dependent variables, as well as the unit of analysis, in a particular theory
+6. Understand the causal mechanisms that connect independent variables to dependent variables--and how they can be represented in a model as intervening variables
+

@@ -1,5 +1,6 @@
 # Exercises
 
+
 ## GSS Mini Report
 
 **Task**
@@ -50,3 +51,81 @@ Working in your “GSS Mini Research Report Team”:
 -   `,` is the required comma between command and options
 -   `as(png)` is the option that saves the file in PNG format
 -   `replace` is the option to write over any existing file in the same location with the same name
+
+
+**Mini Report Improvements**
+
+1. Go to the “First (mini) research report” discussion on the exercises repo
+2. Can anything else be improved? How about making the pie chart smaller?
+3. Make .do file that produces the image in your post (detailed instructions on next slide)
+4. Upload your do-file to the GSS_mini_report folder (detailed instructions in two slides)
+5. As a reply (leave your original post alone!!!) to your
+original comment, post improved version:
+- image is smaller;
+- image matches .do file;
+- has new sentence at the bottom that says something like “The code that created this pie chart is here” where “here” is a link.
+
+You will make a .do file that produces the image in your post. Professor Buzard will run it and make sure your code works/matches what’s in your post. Start by...
+- Opening Stata, choose Window menu, then Do-File Editor, then New Do-File Editor
+- The first line of your .do file should be the command to open the data
+- Insert code to produce the same pie chart from last week
+- End the file with command to save the pie chart at end
+-  Save file as name1_name2.do (e.g., Dylan_Soph.do) to your computer
+- Then, upload your do-file to the GSS_mini_report folder:
+  - Navigate to GSS_mini report folder of the exercises repository
+  - Above the list of files, select the Add file dropdown menu and click Upload files.
+    - Alternatively, you can drag and drop files into your browser.
+  - To select your do-file for upload, drag and drop the file, or click choose your files
+  - In the "Commit message" field, type a short, meaningful commit message
+  - Below the commit message fields, choose “Commit directly to the main branch”
+  - Click “Commit changes”
+  - Refresh the GSS_mini_report page and click on your file to make sure it looks right
+  - Copy the url to add to your post on the discussion
+  
+  
+## Synching to GitHub Desktop
+
+1. Click on Current repository near the top left of Github Desktop.
+
+- If exercises is in the list, click on it
+- If exercises is NOT in the list but you think you cloned the exercises repo last Wednesday (that is, the folder is somewhere on your computer):
+  - Click File, click Add local repository, navigate to the folder, click Add repository
+  - Don’t give up too easily searching for it. 50% of Github problems come from accidentally downloading the same repo to multiple locations—do everything you can to avoid this
+- If you didn’t clone the exercises repo yet:
+  - Click File, click Clone Repository, enter URL of your repo, choose where to save it (again, I suggest on OneDrive), click Clone
+
+2. Make sure your “current repository” is set to exercises and synch
+
+- Leave “current branch” set to main
+- Look at the box to the right of “current branch”
+  - It may say “Pull origin” or “Fetch origin”
+  - Regardless, click the button.
+  - Wait for Github Desktop to sync your files.
+  - If it doesn’t sync the first time, click the button one more time
+- Once that third box says “Fetch origin; Last fetched just now”, click “History” toward the left of your screen
+  - This shows the same commit history as on the web interface
+  - Verify by clicking “View on Github” in the middle of the screen
+- Click “Show in Explorer” in the middle of your screen
+  - This will show you all the files on your local computer, and they should match what you see on the web interface.
+
+3. Create a new .do file, save to local exercises repo
+
+- Add just one line of text, something like “I’m going to upload this .do file to Github!”
+  - Add an asterisk at the beginning of the line; this will make it turn green—it’s a “comment” in the code
+- Save the file as yourname.do (e.g., Ryan.do) in the push_to_Github folder in the exercises repo ON YOUR COMPUTER
+- In Github Desktop, Changes on the left of the screen should now have a little “1” in a circle, and your file showing up below with a green plus sign next to it
+
+
+4. Use Github Desktop to upload a file
+- In Github desktop:
+  - Write a commit message near the bottom left, in the line above “Description.”
+  - Make it something specific, like “Add Ryan’s .do file for push-to- Github assignment”
+  - You can leave the “Description” box blank—unless you need to add more detail to your commit message
+- Click Commit to main
+- Click Push origin
+- Click View on Github
+- Navigate to the Push_to_Github folder
+- Verify that your “push” worked by clicking on your file name and viewing its contents.
+- If it’s there and has a line of content, you’re done!
+
+

@@ -12,5 +12,3 @@ last slide)
 -  Soon, you’ll create an .md file in your team’s project repo (a single contract for the whole team) called team_contract.md
 - You will also finalize the contract on Wednesday
 - You can start drafting the .md file today if you want to explore. If you do, link to the .md file in your new issue
-
-@kbuzard Do we want to keep this in here? It might be too specific to what wqs done in class that day?

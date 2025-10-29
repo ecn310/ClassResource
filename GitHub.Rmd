@@ -1,0 +1,41 @@
+# GitHub
+
+## Collaboration & Documentation on Github
+
+**Using comments/notifications/commits for collaboration**
+
+- In general, you have to “mention” (@username) someone for them to get a notification
+- You can mention individuals or a whole team
+- If you edit a comment, a notification isn’t usually sent
+  - When you make a change in response to someone’s comment, mention people (@username) who need to know in a new comment
+  - Use “blame” feature to figure out where to leave a comment on a file
+  - Use detailed commit messages so your teammates know what you’ve accomplished
+- Also make sure to report it in your project log (linking to output whenever possible)
+  - Use preview before committing so you have fewer commits (avoids formatting errors, obvious mistakes)
+
+It's going to work best to have your work product in an .md file, .do file, discussion or issue
+
+- Then you can just link to each piece from your documentation
+- Your log is your only documentation for now
+- Soon, we’ll start comprehensive documentation on Overleaf (LaTeX)
+  - A Google doc or similar is okay for early work as long as you link to it your documentation and the link is open access
+- everything will be formalized into Overleaf soon
+
+## GitHub Desktop
+
+To create a folder to hold papers for your lit review, either
+
+1. Create the file using the Github UI (“user interface”— the web interface we’ve been using). Two ways to do it are described [here](https://www.warp.dev/terminus/how-to-create-folder-in-github)
+2. Download Github desktop and use that interface
+  - (IMPORTANT: Do NOT just keep clicking if something doesn’t work—ask for help)
+
+Instructions are here to download Github desktop
+
+- Click File, Clone Repository and enter URL of your repo
+- Open Windows Explorer (window + E), navigate to “Local path”
+- Create a folder called “Literature” with at least one paper in it in the local path
+- commit it in Github desktop
+- Click “Push origin” at top right
+- Look at new commit and new folder on Github UI (website)
+
+Note: it is best to have your GitHub folders within OneDrive.

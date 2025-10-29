@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 6 Course &amp; Project Overview | ECN 310 Class Resource</title>
-  <meta name="description" content="Section 6 Course &amp; Project Overview | ECN 310 Class Resource" />
+  <title>Section 3 Exercises | ECN 310 Class Resource</title>
+  <meta name="description" content="Section 3 Exercises | ECN 310 Class Resource" />
   <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 6 Course &amp; Project Overview | ECN 310 Class Resource" />
+  <meta property="og:title" content="Section 3 Exercises | ECN 310 Class Resource" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 6 Course &amp; Project Overview | ECN 310 Class Resource" />
+  <meta name="twitter:title" content="Section 3 Exercises | ECN 310 Class Resource" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="literature-review-and-economic-theory.html"/>
-<link rel="next" href="stata.html"/>
+<link rel="prev" href="course-project.html"/>
+<link rel="next" href="github.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -149,48 +149,156 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="course-project-overview" class="section level1 hasAnchor" number="6">
-<h1><span class="header-section-number">Section 6</span> Course &amp; Project Overview<a href="course-project-overview.html#course-project-overview" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="what-will-ecn-310-do-for-you" class="section level2 hasAnchor" number="6.1">
-<h2><span class="header-section-number">6.1</span> What will ECN 310 do for you?<a href="course-project-overview.html#what-will-ecn-310-do-for-you" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="exercises" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Section 3</span> Exercises<a href="exercises.html#exercises" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="gss-mini-report" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> GSS Mini Report<a href="exercises.html#gss-mini-report" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Task</strong></p>
+<p>Working in your “GSS Mini Research Report Team”:</p>
 <ol style="list-style-type: decimal">
-<li>provide education in, and tools for, research;</li>
-<li>give you context and background for econometrics courses (ECN 422 or ECN 521/522);</li>
-<li>engage you in research experiences;</li>
-<li>connect you to mentoring so you can take advantage of the full range of research opportunities offered by the Economics Department;</li>
-<li>provide recommendations to faculty offering research opportunities, including our economics distinction and B.S./M.A. programs;</li>
-<li>help you think about research-related education and career paths.</li>
+<li>Pick one variable from the 2016 General Social Survey (GSS2016.dta) that makes sense in a pie chart</li>
+<li>Enter the variable name in PollEverywhere</li>
 </ol>
-</div>
-<div id="course-objectives-what-you-will-do-in-ecn-310" class="section level2 hasAnchor" number="6.2">
-<h2><span class="header-section-number">6.2</span> Course objectives: what you will do in ECN 310<a href="course-project-overview.html#course-objectives-what-you-will-do-in-ecn-310" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Your team’s variable must be unique</li>
+<li>Both team members should submit it</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Make the pie chart in Stata</li>
+<li>Save it wherever you want on your computer, as .png or .jpg (NOT as a Stata graph—nothing except Stata can open those)</li>
+<li>Go to the “First (mini) research report” issue on the exercises repo, <a href="https://github.com/ecn310/exercises/discussions/4" class="uri">https://github.com/ecn310/exercises/discussions/4</a></li>
+<li>Write and submit your report on the Github discussion</li>
+</ol>
+<ul>
+<li>One report per team</li>
+<li>Instructions are in the first post</li>
+<li>I’ll put an example in the first comment on the issue</li>
+</ul>
+<p><strong>How to access and analyze the data</strong></p>
 <ol style="list-style-type: decimal">
-<li>Learn the steps involved in conducting economic research;</li>
-<li>Utilize economic theory to frame analysis of research questions;</li>
-<li>Become familiar with simple statistics and apply to economic analysis;</li>
-<li>Select a research question of interest, write a literature review and formulate a hypothesis;</li>
-<li>Collect, clean, visualize and analyze relevant data using descriptive statistics;</li>
-<li>Interpret results, draw conclusions, communicate findings, and document the research process.</li>
+<li>Navigate to the exercises repo on Github</li>
+<li>In the list toward the left of the screen, click on GSS2016.dta</li>
+<li>Click on “View raw” or the download symbol all the way on the right of the gray “Code” bar</li>
+<li>Save the file to your computer, noting the location you save it to</li>
+<li>Navigate to where you saved the file and double-click on it (this only opens Stata because it’s a .dta)</li>
+<li>Explore the data in Stata. Use <code>browse</code> to see the data, use <code>describe</code> or <code>describe, short</code> to get a summary of the data file.</li>
+<li>Explore one variable by using <code>codebook varname</code>, where you input the name of your variable where “varname” is to get an understanding of your variable. Use <code>tabulate varname</code> to see what the observations for that variable look like.</li>
 </ol>
+<p><strong>Make a pie graph</strong></p>
+<ul>
+<li><p>Use <code>graph pie, over(worryjob)</code> to make a pie chart.</p>
+<ul>
+<li>Use <code>help graph pie</code> to view documentation on the <code>graph pie</code> command.</li>
+</ul></li>
+<li><p>Use <code>graph pie, over(worryjob) title("How many people worry about losing their job?")</code> to add a title.</p></li>
+<li><p>Use <code>graph pie, over(worryjob) title("How many people worry about losing their job?") plabel(_all percent)</code>to add percentages</p></li>
+<li><p>Finally, use <code>graph export "C:\Users\...\pie_worryjob.png",as(png), replace</code> to save the graph as an image file. Ensure that you fill in the “…” to match the file path on your computer.</p></li>
+</ul>
+<p><strong>Understand and apply syntax for saving a file</strong></p>
+<ul>
+<li><code>graph export</code> is the command to save a graph</li>
+<li><code>"C:\Users\krist\OneDrive - Syracuse University\ECN_310\pie_worryjob.png"</code> is the path and file name ON PROFESSOR BUZARD’S COMPUTER, not on yours! You need to customize!</li>
+<li><code>,</code> is the required comma between command and options</li>
+<li><code>as(png)</code> is the option that saves the file in PNG format</li>
+<li><code>replace</code> is the option to write over any existing file in the same location with the same name</li>
+</ul>
+<p><strong>Mini Report Improvements</strong></p>
+<ol style="list-style-type: decimal">
+<li>Go to the “First (mini) research report” discussion on the exercises repo</li>
+<li>Can anything else be improved? How about making the pie chart smaller?</li>
+<li>Make .do file that produces the image in your post (detailed instructions on next slide)</li>
+<li>Upload your do-file to the GSS_mini_report folder (detailed instructions in two slides)</li>
+<li>As a reply (leave your original post alone!!!) to your
+original comment, post improved version:</li>
+</ol>
+<ul>
+<li>image is smaller;</li>
+<li>image matches .do file;</li>
+<li>has new sentence at the bottom that says something like “The code that created this pie chart is here” where “here” is a link.</li>
+</ul>
+<p>You will make a .do file that produces the image in your post. Professor Buzard will run it and make sure your code works/matches what’s in your post. Start by…
+- Opening Stata, choose Window menu, then Do-File Editor, then New Do-File Editor
+- The first line of your .do file should be the command to open the data
+- Insert code to produce the same pie chart from last week
+- End the file with command to save the pie chart at end
+- Save file as name1_name2.do (e.g., Dylan_Soph.do) to your computer
+- Then, upload your do-file to the GSS_mini_report folder:
+- Navigate to GSS_mini report folder of the exercises repository
+- Above the list of files, select the Add file dropdown menu and click Upload files.
+- Alternatively, you can drag and drop files into your browser.
+- To select your do-file for upload, drag and drop the file, or click choose your files
+- In the “Commit message” field, type a short, meaningful commit message
+- Below the commit message fields, choose “Commit directly to the main branch”
+- Click “Commit changes”
+- Refresh the GSS_mini_report page and click on your file to make sure it looks right
+- Copy the url to add to your post on the discussion</p>
 </div>
-<div id="what-is-economic-research" class="section level2 hasAnchor" number="6.3">
-<h2><span class="header-section-number">6.3</span> What is economic research?<a href="course-project-overview.html#what-is-economic-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Remler &amp; Van Ryzin’s definition:</p>
+<div id="synching-to-github-desktop" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Synching to GitHub Desktop<a href="exercises.html#synching-to-github-desktop" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Click on Current repository near the top left of Github Desktop.</li>
+</ol>
 <ul>
-<li>“A social and intellectual activity that involves systematic inquiry aimed at accurately describing and explaining the world”</li>
+<li>If exercises is in the list, click on it</li>
+<li>If exercises is NOT in the list but you think you cloned the exercises repo last Wednesday (that is, the folder is somewhere on your computer):
+<ul>
+<li>Click File, click Add local repository, navigate to the folder, click Add repository</li>
+<li>Don’t give up too easily searching for it. 50% of Github problems come from accidentally downloading the same repo to multiple locations—do everything you can to avoid this</li>
+</ul></li>
+<li>If you didn’t clone the exercises repo yet:
+<ul>
+<li>Click File, click Clone Repository, enter URL of your repo, choose where to save it (again, I suggest on OneDrive), click Clone</li>
+</ul></li>
 </ul>
-<p>Primary research (our focus), aims to establish new facts and reach new conclusions to create knowledge</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Make sure your “current repository” is set to exercises and synch</li>
+</ol>
 <ul>
-<li>That is, it pushes out the frontier of what is already known</li>
-<li>It is heavily influenced by the perspectives of the researcher</li>
+<li>Leave “current branch” set to main</li>
+<li>Look at the box to the right of “current branch”
+<ul>
+<li>It may say “Pull origin” or “Fetch origin”</li>
+<li>Regardless, click the button.</li>
+<li>Wait for Github Desktop to sync your files.</li>
+<li>If it doesn’t sync the first time, click the button one more time</li>
+</ul></li>
+<li>Once that third box says “Fetch origin; Last fetched just now”, click “History” toward the left of your screen
+<ul>
+<li>This shows the same commit history as on the web interface</li>
+<li>Verify by clicking “View on Github” in the middle of the screen</li>
+</ul></li>
+<li>Click “Show in Explorer” in the middle of your screen
+<ul>
+<li>This will show you all the files on your local computer, and they should match what you see on the web interface.</li>
+</ul></li>
 </ul>
-<p>The process of research…</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Create a new .do file, save to local exercises repo</li>
+</ol>
 <ul>
-<li>involves the collection, organization, and analysis of information</li>
-<li>is fundamentally creative</li>
-<li>requires critical thinking</li>
-<li>is iterative, non-linear, less straightforward than a lot of coursework</li>
-<li>is a social and intellectual activity that involves systematic inquiry aimed at accurately describing and explaining the world.</li>
+<li>Add just one line of text, something like “I’m going to upload this .do file to Github!”
+<ul>
+<li>Add an asterisk at the beginning of the line; this will make it turn green—it’s a “comment” in the code</li>
+</ul></li>
+<li>Save the file as yourname.do (e.g., Ryan.do) in the push_to_Github folder in the exercises repo ON YOUR COMPUTER</li>
+<li>In Github Desktop, Changes on the left of the screen should now have a little “1” in a circle, and your file showing up below with a green plus sign next to it</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Use Github Desktop to upload a file</li>
+</ol>
+<ul>
+<li>In Github desktop:
+<ul>
+<li>Write a commit message near the bottom left, in the line above “Description.”</li>
+<li>Make it something specific, like “Add Ryan’s .do file for push-to- Github assignment”</li>
+<li>You can leave the “Description” box blank—unless you need to add more detail to your commit message</li>
+</ul></li>
+<li>Click Commit to main</li>
+<li>Click Push origin</li>
+<li>Click View on Github</li>
+<li>Navigate to the Push_to_Github folder</li>
+<li>Verify that your “push” worked by clicking on your file name and viewing its contents.</li>
+<li>If it’s there and has a line of content, you’re done!</li>
 </ul>
 
 </div>
@@ -200,8 +308,8 @@
           </div>
         </div>
       </div>
-<a href="literature-review-and-economic-theory.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="stata.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="course-project.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="github.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -232,7 +340,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/ryanpseely/ClassResource/edit/main/overview.Rmd",
+    "link": "https://github.com/ryanpseely/ClassResource/edit/main/exercises.Rmd",
     "text": "Edit"
   },
   "history": {
@@ -240,7 +348,7 @@ gitbook.start({
     "text": null
   },
   "view": {
-    "link": "https://github.com/ryanpseely/ClassResource/blob/main/overview.Rmd",
+    "link": "https://github.com/ryanpseely/ClassResource/blob/main/exercises.Rmd",
     "text": null
   },
   "download": null,
