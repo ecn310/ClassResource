@@ -379,3 +379,30 @@ folder on the exercises repo (1 point each)
 Notes:
 - A refresher on the Github commands: [Clone / Pull / Push / Fetch](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 - You can upload files directly through the Github UI if you can’t make it work in Github Desktop. Instructions [here.](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+
+## Creating new variables
+
+Learning objectives (Daniels & Minot Section 5.3, pp. 63-64, 67-69)
+
+1. Use the `generate` or `gen` command to create simple new variables from the existing variables. This is the most basic, simple command for creating new variables.
+2. Use the `egen` command to create a new variable by aggregating the existing data. `egen` is more powerful and a little more complicated.
+
+Demonstration using gss_new_variables.do in exercises repo
+
+- Best way to use this: sync your exercises repo using Github desktop, then open the do file from your machine (it will be in the main exercises folder)
+
+## Combining datasets
+
+[Combining datasets](https://www.stata.com/manuals/u23.pdf) (Stata Manual); [Combining datasets](https://libguides.library.nd.edu/data-analysis-stata/merge-append) (Notre Dame Hesbergh Library)
+
+Learning objectives:
+
+1. Recognize the usefulness of combining datasets.
+2. Choose when to apply `merge` versus `append` versus `joinby` to combine datasets in Stata.
+3. Employ the `merge` and `append` commands to combine datasets in Stata.
+
+Sync the exercises repo to your machine
+
+- Open combining_datasets folder
+- Open combining_datasets_exercise.do
+- You could also take a look at the excel file, but make sure to close it before running any of the code

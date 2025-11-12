@@ -3,6 +3,7 @@
 **Overleaf Logistics**
 
 You will need to...
+
 1. create FREE Overleaf account: https://www.overleaf.com/register
 2. give Professor Buzard the email address you used to set up the account on the in-class poll: PollEv.com/kbuzard
 3. Professor Buzard will give you access to your team’s Overleaf project
@@ -12,30 +13,32 @@ You will need to...
 
 LaTeX is like a fancier version of rmarkdown. You can explore its basic commands on the [LearnLaTeX website](https://www.learnlatex.org/en/#toc).
 
-– You have the source file where you write the “code” and then you compile/typeset it into the final product
+- You have the source file where you write the “code” and then you compile/typeset it into the final product
 - Final product is usually PDF
 - We will use www.overleaf.com
 - Structure:
   - Preamble (set options for the document)
-  - \\begin{document}
+  - `\begin{document}`
   - Body of document
-  - \\end{document}
+  - `\end{document}`
   
 Rules
 
 - Many commands need an opening and a closing
-- \\begin paired with \\end
+- `\begin` paired with `\end`
 - Then { paired with }. Example:
+```
 \begin{itemize}
 \item This is the first item in a list
 \item This is the second item in a list
 \end{itemize}
-- \$ to start math paired with another \$ to show where the
-math ends
+```
+
+- `$` to start math paired with another `$` to show where the math ends
 - Others just show up alone
-  - \section
-  - \item
-  - \textit{text to italicize}
+  - `\section`
+  - `\item`
+  - `\textit{text to italicize}`
   
 ## Overleaf Projects
 

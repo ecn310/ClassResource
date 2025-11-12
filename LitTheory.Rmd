@@ -245,7 +245,7 @@ be true?”
 - Theory that supports your tentative hypothesis
 - Causal diagram that connect hypothesis and theory
 - How will you (tentatively) test the hypothesis?
-- What variables from your data will you use to test it?
+  - What variables from your data will you use to test it?
 
 Standard for full credit (4 points):
 
@@ -253,3 +253,31 @@ Standard for full credit (4 points):
 - Theory clearly supports hypothesis
 - Causal diagram accurately represents hypothesis and theory
 - Variables for testing hypothesis clearly stated and closely tied to causal diagram and hypothesis
+
+Now, let’s think about (testable) hypotheses related to your research question. A good research hypothesis should be (Greenlaw pg. 135)...
+
+1. stated clearly and specifically so that it can’t be misinterpreted
+2. Able to discriminate clearly from alternative hypotheses
+3. capable of being proved false
+4. empirically testable
+5. derived from the theoretical analysis.
+
+**Testable Hypotheses and Theory**
+
+Hypothesis: "Raising the minimum wage leads to a reduction in employment among low-skilled workers.“
+
+- OR: If the minimum wage goes up, the number of employed low-skilled workers goes down.
+
+<img src="causal_diagram_minwage1.png" style="border: 1px solid black; border-radius: 8px; box-shadow: 2px 2px 6px #888; max-width: 100%;" alt=" ">
+
+- Theory is the “why” in the middle
+
+<img src="causul_diagram_minwage2.png" style="border: 1px solid black; border-radius: 8px; box-shadow: 2px 2px 6px #888; max-width: 100%;" alt=" ">
+
+- The minimum wage is the cause (independent variable)
+- An independent variable comes first in the causal diagram
+  - An arrow shows how it affects the dependent variable
+  - A plus or minus sign in the middle of the arrow shows the sign of the relationship
+- The number of employed low-skilled workers is the effect (dependent variable)
+  - A dependent variable depends on the level of the independent variable
+  - It comes at the end of the causal diagram

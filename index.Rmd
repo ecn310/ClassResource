@@ -3,6 +3,9 @@ title: "ECN 310 Class Resource"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
+```{r setup, include=FALSE}
+library(DiagrammeR)
+```
 
 # Table of contents
 
