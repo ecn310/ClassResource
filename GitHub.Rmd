@@ -1,4 +1,4 @@
-# GitHub
+# GitHub {#github}
 
 ## Collaboration & Documentation on Github
 
@@ -85,5 +85,53 @@ Note: it is best to have your GitHub folders within OneDrive.
 - Verify that your “push” worked by clicking on your file name and viewing its contents.
 - If it’s there and has a line of content, you’re done!
 
+## Organizing Data and Files on Project Repo
 
+Start by looking at previous project repos:
+  - [Nepobabies](https://github.com/ecn310/course-project-nepobabies)
+  - [Accidents](https://github.com/ecn310/course-project-taxes-tariffs/tree/main/Reproducibility_Package)
+- Sometimes you feel like something is important to keep for later—that’s fine
+- If you won’t need a file again (e.g., .zip file for schain that I asked to be replaced by .dta), delete it
+  - You can always go back into an earlier version of the repo to get things back if you get rid of them accidentally
+- No need for “versioning” documents -- Github always keeps the old versions
 
+Troubleshooting Overleaf errors
+
+- If there’s a red number immediately to the right of the “Recompile” button, click it 
+
+To turn off notifications from a Github repo
+
+- Go to the main page of the repo
+- Click "Unwatch" toward the top right
+- Choose "Ignore"
+
+**Code Documentation**
+
+Learning objectives (Slides 1-18 of PDF provided on Blackboard):
+
+1. Understand the role the code you write plays in a project, including for reproducibility and team dynamics.
+  - The research output is not just a paper or report, but whole process. That means code, data, documentation are just as important as the final text
+2. Articulate why you should use the Stata help files and reference manual.
+  - Valley of Hubris: your code doesn’t just need to run; it needs to produce what you intend to produce / what you tell others it produces
+3. Learn the structure and syntax of Stata help files.
+  - Demo (23 pages on merge alone!)
+4. Use the three types of comments to effectively document your code
+
+**Types of Documentation**
+
+For your project, you need all of the following:
+- “Daily” stream-of-consciousness log of work (you are already doing this!)
+- Task documentation
+  - Keeps all the information about a task in the same place
+  - Usually on an Issue on Github, sometimes Discussion (example [here](https://github.com/kbuzard/labs/issues/51))
+- Code (do-files if working in Stata)
+  - Must be thoroughly commented
+- A master documentation file
+  - A master documentation file keeps track of where all the various pieces of your project are (data, literature, notes, code)
+    - [Example](https://github.com/ecn310/course-project-accidentsteam/tree/main/Reproducibility%20Package) from a previous project for this course
+  - You have started this on data.tex
+  - Pieces of this will end up in your master documentation file
+  – Master documentation should then be updated anytime anyone in your team creates something new or a major decision is made
+  - For now, make sure to keep up with daily log, task documentation on Github issues, and keep updating data.tex
+- A master script 
+- The research report 

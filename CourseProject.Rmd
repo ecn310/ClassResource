@@ -1,4 +1,4 @@
-# Course Project
+# Course Project {#project}
 
 ## Teamwork and team dynamics
 
@@ -47,3 +47,39 @@ Has our team already accessed all the data we need?
 
 - (If not) Do we have a plan to access it?
 - (If not) What do we need to be able to make a plan?
+
+### Documentation Check Feedback
+
+Clearly state in your documentation which person is primarily responsible for each task (or subtask)
+
+- It's okay to say that one person is in charge of filling in Section 2 while another is in charge of filling in Section 3
+- Another good reason to assign backups: the backup can be responsible for checking to make sure the work got done
+
+## Putting Together Your Data Set
+
+Learning objectives (Greenlaw Ch. 9, pp. 160-163):
+1. Develop a search strategy for finding your data (applies even if you have a dataset recommended by a faculty member)
+2. Obtain data that correctly measure the concepts that your theory deems important
+
+**Develop a search strategy for finding your data:**
+
+In order to find data that correctly measure the concepts that your theory deems important,
+
+- START by reviewing your theoretical model.
+- ask, “What variables do I need data for to test my research hypothesis?”
+- rethink your hypothesis if you can’t answer the question, “If I could obtain ideal data, what variables would they include?”
+
+Greenlaw Ch. 9 assumes you already have your hypothesis.
+
+- We’ll use its ideas to help you reverse-engineer a hypothesis if necessary
+- To start: What variables do you have that are related to the research question?
+
+Obtain data that correctly measure the concepts that your theory deems important. Which question should you ask as you investigate a data source?
+- What data are, in fact, available?
+- If the data are not good enough, are they good enough?
+- If the data are not acceptable and there is no adequate **proxy**, how can the hypothesis be reformulated to make it testable, given the data available?
+
+Proxy: a variable that substitutes for another unavailable or unobserved variable (R&vR p. 113)
+
+- This is needed when it’s too difficult or costly to directly quantify the ideal variable, or the ideal variable is not included in available datasets
+

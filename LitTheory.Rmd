@@ -1,6 +1,6 @@
-# Literature Review and Economic Theory
+# Literature Review and Economic Theory {#littheory}
 
-## Objectives:
+## Objectives
 
 1. Understand why and how researchers perform a literature review
 2. Distinguish between popular and scholarly literature
@@ -15,7 +15,7 @@ The papers in your lit review should be scholarly economics papers, but how do y
 
 - Look at journal or where working papers are posted
 - Published economics papers will almost certainly be in journals on this [list](https://ideas.repec.org/top/top.journals.simple.html)
--  Look at authors’ websites.
+- Look at authors’ websites.
 - Does at least one author have a Ph.D in economics?
 - Does at least one author work as a professor of economics or as an economist in some organization (government, think tank, etc)?
 
@@ -119,7 +119,10 @@ Kahn, L. B. (2010). The long-term labor market consequences of graduating from c
 - Specific question: When graduating in a poor economy, are graduates more likely to experience job mismatching and/or experience long-term effects from entering the labor market during a bad time?
   - Hypothesis: If graduating in a worse-off economy, graduates will be more likely to experience job mismatching as there are fewer opportunities available and will suffer higher unemployment rates from the labor market conditions.
   
-**Note:** Review article vs. actual frontier research...In order to extract relevant theories from the papers you are reading, it will be more useful to read actual frontier research papers (one study/experiment on a topic with more limited scope) than a review article (also called meta-analyses, compile frontier research papers and review their findings).
+**Note on what kinds of articles should be included:** Review article vs. actual frontier research...In order to extract relevant theories from the papers you are reading, it will be more useful to read actual frontier research papers (one study/experiment on a topic with more limited scope) than a review article (also called meta-analyses, compile frontier research papers and review their findings).
+
+- Working papers versus published articles: Published articles are preferred. Working Papers can be helpful, but if they are more than a few years old, it may be because the author does not believe the work in that paper is of high enough quality to be published. 
+– Reputable economic journal ([REPEC](https://ideas.repec.org/top/top.journals.all.html) list here)
 
 ### Paper Summary Two
 
@@ -136,6 +139,16 @@ supports the research hypothesis?
 - Include in words and also in a causal diagram (more on Wednesday)
  - Add AI Disclosure Statement (another resource here)
 
+**More paper summary feedback**
+
+- You only need a hypothesis for the specific question
+- Your citations should include all co-author names, not "et al.“
+  - We use "et al." in the text of a paper to shorten parenthetical references, but a citation includes all coauthors explicitly
+- It's a great idea to have a place where you keep extra notes and your intermediate work. It's also fine to have the document pretty messy while it's in process.
+  - But it should be cleaned up when for review by an outsider
+- The paper summary documents are being built into a cohesive whole; all the elements need to be there for full credit (including your research question)
+  - Each one needs to be internally consistent: hypothesis answers the research question, theory says why the hypothesis makes sense, causal diagram matches with the theory statement in words
+- From now on, no AI disclosure statement == automatic zero
 
 ## Theorizing
 
@@ -198,3 +211,45 @@ The sign of a relationship...
 - indicates whether or not two variables move or covary in the same or opposite directions.
 - is NOT the same as the causal direction of a relationship, which is represented by arrows in a causal diagram.
 
+### Moving lit review/theory forward
+
+We should start using the process in Greenlaw pg. 135-136 to create working research hypotheses, using your paper summaries / lit review as brainstorm
+- For that to be helpful, you need to write VERY PRECISE hypotheses
+  - Focus on hypotheses that are actually tested in the paper
+  - AND translate them into causal diagrams
+  - Causal diagrams should be integrated into the summary document and align tightly with the theory statement
+- So, you’ll shape up the hypothesis and theory for the two papers you’ve been working on and submit a list of at least three more papers you plan to summarize
+
+**Paper Summaries to Hypothesis Formation**
+
+For each paper summary...
+
+- If statement of hypothesis is not highly specific, you can’t figure out what theory would support the hypothesis
+- The theory should answer the question: “Why might this hypothesis
+be true?”
+  - That is, the theory is the justification for why the hypothesis is reasonable
+- The hypothesis is the answer to the research question, and
+- Theory and hypothesis are both answers. They can’t be questions.
+  - Use causal diagram to help clarify the hypothesis and the theory that supports the hypothesis
+- All the words in the causal diagram should show up in the hypothesis and/or the theory
+- The first and last boxes in the diagram should be something that you can find in your data
+  - The point of a hypothesis is to empirically test a relationship. We can't test a relationship when the implication (the last box) is abstract. It has to be data
+- Your paper summaries will provide guidance
+  - To be helpful, your hypotheses need to be VERY PRECISE
+  - Focus on hypotheses that are actually tested in the paper
+  
+### Research Hypothesis Assignment
+
+- Your team’s research question
+- Tentative hypothesis
+- Theory that supports your tentative hypothesis
+- Causal diagram that connect hypothesis and theory
+- How will you (tentatively) test the hypothesis?
+- What variables from your data will you use to test it?
+
+Standard for full credit (4 points):
+
+- Hypothesis is clearly stated, sensible, tied to faculty member'sguidance and responds to feedback
+- Theory clearly supports hypothesis
+- Causal diagram accurately represents hypothesis and theory
+- Variables for testing hypothesis clearly stated and closely tied to causal diagram and hypothesis

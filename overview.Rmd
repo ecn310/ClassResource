@@ -1,4 +1,4 @@
-# Course & Project Overview
+# Course & Project Overview {#overview}
 
 ## What will ECN 310 do for you?
 

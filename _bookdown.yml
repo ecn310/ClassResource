@@ -13,3 +13,4 @@ rmd_files:
   - GitHub.Rmd
   - LitTheory.Rmd
   - stata.Rmd
+  - Latex.rmd

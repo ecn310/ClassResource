@@ -1,4 +1,4 @@
-# Stata
+# Stata {#stata}
 
 ## Coding
 
@@ -164,4 +164,218 @@ You will make a .do file that produces the image in your post. Professor Buzard 
   - Copy the url to add to your post on the discussion
   
   
+## Outliers Exercise
 
+**Learning Objectives:**
+
+1. Using Log Files and Saving Your Work (Daniels & Minot, 4.5)
+
+- Start and save a log by issuing commands at the beginning and end of a do-file.
+- Understand the text, replace, and append options on the log command
+- Implement best practices for saving files
+
+2. Cleaning Data and Checking for Outliers (Daniels & Minot, 5.1 and 5.2)
+
+- Recognize what “cleaning” your data means
+- Find and fix outliers in data, clearly documenting any changes to the dataset
+
+3. How to Make Sure Your Research Paper is Reproducible (World Bank Blogs, First paragraph, “What does reproducibility mean?“, Tip 6)
+- Comprehend what reproducibility means and the main sources of reproducibility failure
+
+**Task**
+
+Find and fix outliers in data, clearly documenting any changes to the dataset
+- Use `codebook varname` to get codebook for single variable
+  - `tabulate varname` gives a table of all values
+- Use `summarize varname` to get summary statistics
+- If you change an outlier in any way, it MUST be documented
+- DON’T just go into the data editor and change it.
+  - This leaves no record; it’s legitimately TERRIBLE science. People have lost their careers over this
+  - No one (including yourself or your team members) will be able to replicate your dataset if they don’t know what you did
+- DO write code in your .do file like on the bottom of D&M pg. 62 (Section 5.2)
+ - When doing something like this for your project, acknowledge that you’ve done it in your global documentation and point to the location in the issue to which it contributes
+
+**Do files**
+
+- Do file is a complete set of instructions for completing a task
+- Log file is a record of how the task was executed (all the output)
+  - Need to put all substantive code after the log starts
+  - Log close should be at the very end
+- You always experiment and learn as you build a do-file
+  - Once you think your do-file is perfect, close Stata, open again, run the do-file all at once to produce a clean log without errors
+  - To run the whole do-file at once, instead of highlighting one line and hitting Ctrl+D, just hit Ctrl+D with nothing highlighted
+- Keep iterating until...
+  - no errors when you run the .do file (1)
+  - files are in the right place (2)
+  - log matches your do-file exactly (3)
+
+**Outline for the do-file you’ll create**
+
+- `cd`
+  - Once you issue the `cd` command, you don't need to type the whole path in the use and save statements
+  - `cd` changes the working directory to the location you want
+  - Stata will now default to looking in your new working directory to find files to open and will place things there when you save
+- So, you’ll just need the file name without the file path in front of it
+- If you put the file path ahead of the file name, it won’t break your code, but it’s bad for reproducibility
+
+`log` to start the log file
+
+`use` to open the data
+
+[insert data analysis and modification code]
+
+`save` to save the data
+
+- Save the data to the same folder for this exercise as where your log, do-file, and the supplied data are 
+
+`log close`
+
+**Outliers Team Exercise Instructions**
+
+- Each team’s goal
+- Find and fix outliers in GSS2016_outliers.dta
+  - Save a cleaned version of the .dta file (do NOT modify the original)
+  - Create a .do file that executes each step
+  - Use a log file to document your work; log MUST match .do file
+  - Upload all three files to central Github exercises\outliers folder
+    - Ensure .do file and log MATCH (that is, if I re-run your do file, I will get the same log except for my file path)
+
+**Step 1:** (At least) One member of the team uses Github Desktop to make sure you have the most recent version of the exercises repo on your computer
+
+**Step 2:** Create a do-file in Stata named “firstname1_firstname2_outliers.do” and save it in the exercises\\outliers folder (the version on your computer)
+
+**Step 3:** Execute the sub-steps below with commands in your .do file:
+
+a. Open a log (use text and replace options) in outliers folder (D&M p. 51)
+– log using “[insert the path to the folder on your computer]\\firstname1_firstname2_outliers”, text replace
+b. Change the path to the outliers folder using cd command (pg. 51)
+c. Open GSS2016_outliers.dta (command: use)
+d. Report summary stats for variable chldidel using sum command
+e. Check chldidel for outliers using codebook and tabulate
+f. Fix any outliers via a command in the do-file (pg. 62)
+g. Run sum, codebook, and tab again to verify problem is fixed
+h. Save modified data file in outliers folder as firstname1_firstname2_outliers.dta (p. 54)
+i. Close log (p. 51-53) [use log close, NOT log off]
+
+**Step 4:** Commit the three files to the outliers folder in the exercises repo using Github Desktop
+a. Click “Fetch origin” and “pull origin” in top right of Github Desktop
+b. Enter a descriptive commit message and click “Commit to main”
+c. On web interface: make sure all three files are in the outliers folder, named correctly, and the contents of .do and log files match
+
+**Outliers Exercise Feedback**
+
+Look at the commit messages on exercises repo
+
+- Look at the outliers folder on exercises repo
+  - Need to follow the naming convention for the log
+- Make Stata results window wider so log is easier to read
+- If you lose your do file or some of its contents, your log file can save you
+- Don't replace the outlier value another (more standard) value. This indicates that you know for sure that this respondent really meant they want to have 10 children
+  - It’s better to make it missing (“.”)
+- Remember to close everything and re-run until the do file runs cleanly so your log matches your do file
+
+## Correlations Exercise
+
+Learning Objectives (Daniels & Minot, Article 12.1, Section 12.3):
+
+1. Employ and interpret scatter plots to learn about the relationship between two variables
+2. Employ and interpret Pearson correlation coefficients (either `corr` or `pwcorr`), including the statistical significance of the correlation
+3. Recognize the limitations of correlation analysis
+
+Also some information in Remler & VanRyzin Ch. 2:
+
+4. Understand and explain the concept of correlation
+
+Employ and interpret Pearson correlation coefficients, including the statistical significance of the correlation:
+
+The Pearson correlation coefficient, or r,...
+- measures the strength of the relationship between two
+continuous variables.
+- is calculated using the number of observations, the values of
+the variables, and the means of the variables.
+- varies between -1 and +1.
+- Equals 0 when there is no correlation.
+
+This exercise has a bunch of goals:
+
+1. Make sure you’re comfortable using Github to download and upload files
+2. Become more comfortable with variables and units of analysis
+3. Reinforce readings on hypotheses and theory
+4. Deepen your understanding of the reading on correlations via a simple economic example
+- Correlations, scatterplots, and the sign of relationships
+5. Provide some examples of good code commenting
+6. Help you become more comfortable with Stata do-files, logs, and file management
+- You will modify an existing do file so it works on your computer
+- You’ll have an example of what the log should look like
+
+Recall the importance of reproducibility in your code (and your research paper):
+
+The most common reasons for code to be non-transferrable are...
+
+- the reproducibility package does not include all the required code or data files.
+- the code uses file paths that only exist in the machine where they were last run.
+- there are no clear instructions on what steps the reviewer should follow to recreate final results.
+
+**Datasets**
+
+Open up exercises\\correlations\\CPS_2017.dta
+
+- It’s a sample of the 2017 CPS (Current Population Survey from the U.S. Bureau of Labor Statistics)
+- Unit of analysis: (there is one row for) each person who was surveyed in 2017 (ages 25 to 30)
+- Your data is not automatically in the unit of analysis you need
+  - Example: zipcentercrime had individual 911 calls, but need to know how many 911 calls in a given area
+    - They have to transform their data
+- Variables: (one column for each of) 20 variables
+  - age, hours, wage, earn (weekly earnings), etc.
+  
+**“Correlations” Exercise Requirements**
+
+- Upload your do file and log file to the correlations
+folder on the exercises repo (1 point each)
+  - Point subtracted if you upload more than these two files
+- Follow naming convention in instructions (1 point)
+- Log should be in text format (1 point)
+- Log should look just like sample_log, except it should use a directory on your computer and have the name of your log (1 point)
+- Log should also match do-file (no editing the log name outside of running the do-file, or editing the log after running the do-file) (1 point)
+
+**Step 1: Get the files from GitHub**
+
+1. Open Github Desktop
+2. Choose exercises repo
+3. Click “Fetch origin” in top center of the GUI
+4. Click “Pull origin” when it just said “Fetch origin”
+
+- This brings the new files I created onto your computer
+
+5. On Repository menu (top of Github Desktop), choose “Show in Explorer”
+6. Double click on the “correlations” folder in Windows Explorer
+7. Click in address bar to get path
+
+- Copy this path (you’ll need it in a minute)
+
+**Step 2: Save a copy of the do-file, modify, and run it**
+
+1. Open the do-file Stata_CPS_101525.do
+2. “Save as” in the correlations folder, add “YOURNAME_” to the beginning of the filename (e.g. Ryan_Stata_CPS_101525.do)
+3. Replace the path after the `cd` command with the path you copied on line 23
+4. Change the name of the log file (instructions in comment) on line 27
+5. Run the code step by step to make sure it works and that you understand the correlations, scatterplots, and associated theories
+6. Save the do-file and close Stata
+7. Re-open YOUR do-file and hit “Ctrl+D” (don’t highlight anything)
+8. Open YOUR log (make sure it’s a Text Document) by clicking on it in Windows Explorer to make sure it looks like MY log except the path and log name should match your path and log name
+
+**Step 3: Upload files to Github**
+1. Make sure your two files (log and do-file) show up in Github Desktop in the correlations folder on the exercises repo and are named correctly.
+2. Write a substantive commit message
+3. Click “Commit to main”
+4. Click “Push origin” at top right
+- Click “Fetch origin” and “Pull origin” first if “Push Origin” isn’t there
+5. Navigate to the exercises repo on the Github UI (web interface)
+6. Open the correlations folder
+7. Make sure your two files (log and do-file) are there
+8. Click on the do-file to make sure it looks my do-file, but with your path
+9. Click on the log to make sure it looks like my log, but with your path
+
+Notes:
+- A refresher on the Github commands: [Clone / Pull / Push / Fetch](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+- You can upload files directly through the Github UI if you can’t make it work in Github Desktop. Instructions [here.](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
