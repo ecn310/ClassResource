@@ -117,7 +117,8 @@ The purpose of scholarly writing is to make an argument that is persuasive to ex
 
 - For an argument to be persuasive the reasons supporting it must be true, and the conclusion must follow from those reasons.
 
-## Final Project Report
+
+### Final Project Report Sections
 
 Pull Github updates to your Overleaf team repo (1 person!) project_template.tex outlines the typical sections you should have (others are possible)
 
@@ -144,6 +145,23 @@ Pull Github updates to your Overleaf team repo (1 person!) project_template.tex 
 9. Finalize Intro and Conclusion
 10. Write Abstract
 
+### Communicating the results of a research project:
+
+Greenlaw Ch. 12 Learning Objectives:
+
+1. Describe the purpose of a research report
+2. Describe how you tested your hypothesis and what you found
+
+Write introduction last!
+
+- For now, focus on getting your working hypothesis nailed down and your data ready to test it
+– Until you see the basic story that is embedded in your data, you don't really have enough to go on to even start the intro
+- Results (aka empirical analysis) section
+  - the type of statistical analysis you employed
+  - the results you hypothesized
+  - your actual results
+  - your interpretation of the results.
+
 ## Reproducibility Package
 
 - Raw data
@@ -160,3 +178,43 @@ Pull Github updates to your Overleaf team repo (1 person!) project_template.tex 
   - location and how to access all files, including figures
 
 Examples [here](https://github.com/ecn310/course-project-nepobabies/blob/main/Final%20Report/ReproducibilityPackage.md), [here](https://github.com/ecn310/course-project-zipcentercrime/tree/main/Reproducibility%20Package), and [here](https://github.com/ecn310/course-project-accidentsteam/tree/main/Reproducibility%20Package).
+
+## Descriptive Statistics
+
+Learning objectives ([Daniels & Minot](https://research.ebsco.com/c/gvriom/search/details/qcsbnwmqtn?db=nlebk), pp. 75-80 and 96-101):
+
+1. List the uses for descriptive statistics in research.
+2. Distinguish between ordinal categorical variables, nominal categorical variables, continuous variables on an interval scale, and continuous variables on a ratio scale.
+3. Include the number of missing values in a frequency table and think critically about which values are missing.
+4. Make appropriate use of bar graphs and histograms.
+
+## Distinguish between types of variables
+
+- ordinal categorical variables
+- nominal categorical variables
+- continuous variables on an interval scale
+  - a measure that has a numerical value and the magnitude between the intervals is the same
+- continuous variables on a ratio scale
+  - a measure that is the same as an interval measure, but it also has a true zero value (a complete absence of what is being measured)
+
+Table 6.1 on page 76 of Daniels & Minot is your best friend
+
+Open Github\\exercises\\Daniels_Minot_data\\College Results.dta
+
+• Can you find one example of each type of variable? See Table 6.1
+• `label list` command is helpful
+
+### Visualizing Variable Types
+
+Exercise: Make appropriate use of bar graphs and histograms.
+
+With College Results.dta open:
+
+- `graph bar (count), over(atsp)`
+  - Now try it with the “AvgNetPriceAfterGrants” variable
+  - What’s going on? Use `codebook` command
+- `histogram AvgNetPriceAfterGrants, percent`
+  - Change the number of “bins”:
+  - `histogram AvgNetPriceAfterGrants, bin(10) percent`
+- What graph type would you use for variable “Size3”?
+- Can you produce at least one histogram or bar chart for your project data?
