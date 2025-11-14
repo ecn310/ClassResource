@@ -1,4 +1,4 @@
-# LaTeX and Overleaf (#latex)
+# LaTeX and Overleaf {#latex}
 
 **Overleaf Logistics**
 

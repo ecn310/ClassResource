@@ -105,6 +105,38 @@ When you can’t directly measure the data you need, choose the best available p
 - GDP for standard of living
 - NOT recessions for tightness of the labor market, since the unemployment rate is a better proxy
 
+### Distinguish between types of variables
+
+- ordinal categorical variables
+- nominal categorical variables
+- continuous variables on an interval scale
+  - a measure that has a numerical value and the magnitude between the intervals is the same
+- continuous variables on a ratio scale
+  - a measure that is the same as an interval measure, but it also has a true zero value (a complete absence of what is being measured)
+
+Table 6.1 on page 76 of Daniels & Minot is your best friend
+
+Open Github\\exercises\\Daniels_Minot_data\\College Results.dta
+
+• Can you find one example of each type of variable? See Table 6.1
+• `label list` command is helpful
+
+### Visualizing Variable Types
+
+Exercise: Make appropriate use of bar graphs and histograms.
+
+With College Results.dta open:
+
+- `graph bar (count), over(atsp)`
+  - Now try it with the “AvgNetPriceAfterGrants” variable
+  - What’s going on? Use `codebook` command
+- `histogram AvgNetPriceAfterGrants, percent`
+  - Change the number of “bins”:
+  - `histogram AvgNetPriceAfterGrants, bin(10) percent`
+- What graph type would you use for variable “Size3”?
+- Can you produce at least one histogram or bar chart for your project data?
+
+
 ## Using Writing as a Tool for Economic Research
 
 Learning objectives
@@ -116,6 +148,25 @@ Learning objectives
 The purpose of scholarly writing is to make an argument that is persuasive to experts in the field.
 
 - For an argument to be persuasive the reasons supporting it must be true, and the conclusion must follow from those reasons.
+
+
+### Writing as a Product of Economic Analysis
+
+Learning objectives (Greenlaw Ch. 5):
+
+1. Articulate what is required when ‘writing as product’
+- Your audience is your sponsoring professor and other academic economists
+- Your writing should be formal, clear, include sufficient (but not too many) details
+2. Describe how experienced writers allocate their time between the writing steps
+- You should spend the most time on pre-writing and revising
+3. List the five features of good economic writing
+4. Understand the importance of writing the first draft quickly (different from soon)
+- You’re not going to write the first draft of the whole report all at once
+- Data section first, then results
+5. Avoid plagiarism
+6. Realize your project’s potential by leaving time to revise and edit
+- You forego substantial improvements if you only write one draft
+- One of the most disappointing comments to write on students' final papers is "This would make an excellent first draft." In other words, it has great potential but that potential was not realized.
 
 
 ### Final Project Report Sections
@@ -176,22 +227,76 @@ Write introduction last!
   - should explain the use and structure of the code, including
   - any intermediate datasets
   - location and how to access all files, including figures
+  
+**What details do you need to write down?**
+
+Ask yourself:
+
+1. What does Professor Buzard need so she can understand exactly what we did and give us feedback?
+2. What information do we need to write down so we can remember it clearly tomorrow, next week, or when we’re writing the report?
+- Can be in a commit (show SHA), issue or discussion post, a file, etc.
+- Example from hypothesis workshop
+
+**Where the details live…**
+
+Detailed documentation should be linked in your master file & your log
+
+- Code (do-files if working in Stata)
+  - Must be thoroughly commented
+- Task documentation
+  - I suggest Issues on Github (example here), but you can choose the location
 
 
 ### Reproducibility Package Ideas
 
 [Example](https://github.com/worldbank/rio-safe-space) on Github from World Bank
+
 - World Bank [e-book](https://worldbank.github.io/dime-data-handbook/publication.html)
   - [This section](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.1-summary-publishing-reproducible-research-outputs) on output in particular
   - Great summary in this [table](https://worldbank.github.io/dime-data-handbook/publication.html#publishing-a-reproducible-research-package) specifically about the reproducibility package
   - [This](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.4-releasing-a-reproducibility-package-a-case-study-from-the-demand-for-safe-spaces-project) goes along with the example above
 
 Feodora Teti’s Comprehensive [README](https://data.mendeley.com/datasets/mbfvv936s5/1/files/38c7c07d-e571-464c-9f57-50204e149cfe)
-- you can have something like this all in one document if your project is simple enough
-– You should give a little bit of an introduction, like the main page of the World Bank example
+
+- You can have something like this all in one document if your project is simple enough
+- You should give a little bit of an introduction, like the main page of the World Bank example
 
 
 Examples from previous projects [here](https://github.com/ecn310/course-project-nepobabies/blob/main/Final%20Report/ReproducibilityPackage.md), [here](https://github.com/ecn310/course-project-zipcentercrime/tree/main/Reproducibility%20Package), and [here](https://github.com/ecn310/course-project-accidentsteam/tree/main/Reproducibility%20Package).
+
+### Reproducibility package plan
+
+- You can put your plan wherever it makes sense to your team, just say where it is in your log and master documentation
+- List all the pieces that your project requires in a plan that says where each piece will be stored and how each piece will relate to the whole
+  - Github? OneDrive if any one dataset is over 50mb
+  - Can it all go in a data appendix? Do you need several documents? Are all the files in one folder, or many?
+- Create a timeline of the tasks required to get the reproducibility package (and underlying work) completed
+  - It should dovetail with your final submission plan (which you should be updating frequently)
+  - Make sure you include time to ensure do-files are well-commented
+- Examples [here](https://github.com/ecn310/course-project-zipcentercrime/discussions/18) and [here](https://github.com/ecn310/course-project-taxes-tariffs/discussions/20)
+
+### Master documentation file
+
+This is a critical piece of the reproducibility package. It will encompass and contain information on every piece of your project.
+
+- Navigate to the main page for your project repo and click "Add a README" at the bottom
+  - Create the document the same as you would for any .md file on Github
+- Include links to all the various pieces of your project (team contract, data, .do files, data.tex file, literature, notes, code, etc.).
+  - Anything you've created (and not deleted) for the project should show up here as a link
+  - It will be updated each week for anything new you create or major decisions you make
+- Explain what every file in your Github repo does (this is a good time to prune your files if needed)
+- Examples [here](https://github.com/ecn310/course-project-accidentsteam/wiki), [here](https://github.com/ecn310/course-project-diop/wiki), [here](https://github.com/ecn310/course-project-migration/wiki), and [here](https://github.com/ecn310/course-project-nepobabies/wiki)
+
+
+### Full credit standard for project documentation
+
+- All analysis is easily and fully reproduced using supplied materials.
+- Documentation / reproducibility package is logically organized. Integrates data work into a coherent whole that the reader can easily follow.
+  - Tell a coherent, complete story in the documentation!
+- All steps, including each line (or small group of lines) of code in each do-file, are clearly explained. Key choices (e.g., how to deal with outliers) are well justified.
+  - Some of this may be in report, some only in documentation
+  - If in report, just point to that in documentation instead of repeating
+- All sentences are complete and grammatical (or in bullet point form). All words are chosen for their precise meanings. Key concepts are completely explained. Submission has been spell-checked and proofread and has no errors.
 
 ## Descriptive Statistics
 
@@ -202,33 +307,6 @@ Learning objectives ([Daniels & Minot](https://research.ebsco.com/c/gvriom/searc
 3. Include the number of missing values in a frequency table and think critically about which values are missing.
 4. Make appropriate use of bar graphs and histograms.
 
-## Distinguish between types of variables
+## Rubric
 
-- ordinal categorical variables
-- nominal categorical variables
-- continuous variables on an interval scale
-  - a measure that has a numerical value and the magnitude between the intervals is the same
-- continuous variables on a ratio scale
-  - a measure that is the same as an interval measure, but it also has a true zero value (a complete absence of what is being measured)
-
-Table 6.1 on page 76 of Daniels & Minot is your best friend
-
-Open Github\\exercises\\Daniels_Minot_data\\College Results.dta
-
-• Can you find one example of each type of variable? See Table 6.1
-• `label list` command is helpful
-
-### Visualizing Variable Types
-
-Exercise: Make appropriate use of bar graphs and histograms.
-
-With College Results.dta open:
-
-- `graph bar (count), over(atsp)`
-  - Now try it with the “AvgNetPriceAfterGrants” variable
-  - What’s going on? Use `codebook` command
-- `histogram AvgNetPriceAfterGrants, percent`
-  - Change the number of “bins”:
-  - `histogram AvgNetPriceAfterGrants, bin(10) percent`
-- What graph type would you use for variable “Size3”?
-- Can you produce at least one histogram or bar chart for your project data?
+[Here](https://github.com/ecn310/ClassResource/blob/main/Course_Project_Rubric.pdf) is the rubric for your final submission of the course project, including the final report and the reproducibility package.
