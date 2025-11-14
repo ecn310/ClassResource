@@ -177,7 +177,21 @@ Write introduction last!
   - any intermediate datasets
   - location and how to access all files, including figures
 
-Examples [here](https://github.com/ecn310/course-project-nepobabies/blob/main/Final%20Report/ReproducibilityPackage.md), [here](https://github.com/ecn310/course-project-zipcentercrime/tree/main/Reproducibility%20Package), and [here](https://github.com/ecn310/course-project-accidentsteam/tree/main/Reproducibility%20Package).
+
+### Reproducibility Package Ideas
+
+[Example](https://github.com/worldbank/rio-safe-space) on Github from World Bank
+- World Bank [e-book](https://worldbank.github.io/dime-data-handbook/publication.html)
+  - [This section](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.1-summary-publishing-reproducible-research-outputs) on output in particular
+  - Great summary in this [table](https://worldbank.github.io/dime-data-handbook/publication.html#publishing-a-reproducible-research-package) specifically about the reproducibility package
+  - [This](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.4-releasing-a-reproducibility-package-a-case-study-from-the-demand-for-safe-spaces-project) goes along with the example above
+
+Feodora Teti’s Comprehensive [README](https://data.mendeley.com/datasets/mbfvv936s5/1/files/38c7c07d-e571-464c-9f57-50204e149cfe)
+- you can have something like this all in one document if your project is simple enough
+– You should give a little bit of an introduction, like the main page of the World Bank example
+
+
+Examples from previous projects [here](https://github.com/ecn310/course-project-nepobabies/blob/main/Final%20Report/ReproducibilityPackage.md), [here](https://github.com/ecn310/course-project-zipcentercrime/tree/main/Reproducibility%20Package), and [here](https://github.com/ecn310/course-project-accidentsteam/tree/main/Reproducibility%20Package).
 
 ## Descriptive Statistics
 
