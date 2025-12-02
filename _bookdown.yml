@@ -14,3 +14,5 @@ rmd_files:
   - LitTheory.Rmd
   - stata.Rmd
   - Latex.rmd
+  - Data.Rmd
+  - Stats.Rmd

@@ -1,0 +1,10 @@
+# Statistics {#stats}
+
+## Descriptive Statistics
+
+Learning objectives ([Daniels & Minot](https://research.ebsco.com/c/gvriom/search/details/qcsbnwmqtn?db=nlebk), pp. 75-80 and 96-101):
+
+1. List the uses for descriptive statistics in research.
+2. Distinguish between ordinal categorical variables, nominal categorical variables, continuous variables on an interval scale, and continuous variables on a ratio scale.
+3. Include the number of missing values in a frequency table and think critically about which values are missing.
+4. Make appropriate use of bar graphs and histograms.

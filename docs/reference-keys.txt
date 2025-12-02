@@ -7,12 +7,7 @@ project
 teamwork-and-team-dynamics
 building-the-team-contract
 project-team-check-ins
-project-data-check-in
 documentation-check-feedback
-putting-together-your-data-set
-proxy-variables
-distinguish-between-types-of-variables
-visualizing-variable-types
 using-writing-as-a-tool-for-economic-research
 writing-as-a-product-of-economic-analysis
 final-project-report-sections
@@ -60,3 +55,11 @@ combining-datasets
 latex
 latex-overview
 overleaf-projects
+data
+project-data-check-in
+putting-together-your-data-set
+proxy-variables
+distinguish-between-types-of-variables
+visualizing-variable-types
+stats
+descriptive-statistics-1
