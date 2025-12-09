@@ -40,6 +40,17 @@ Instructions are here to download Github desktop
 
 Note: it is best to have your GitHub folders within OneDrive.
 
+### Syncing with Overleaf
+
+
+<img src="gh_ol_syncing_issue.png" style="border: 1px solid black; border-radius: 8px; box-shadow: 2px 2px 6px #888; max-width: 100%;" alt=" ">
+
+
+<img src="gh_ol_syncing_solution.png" style="border: 1px solid black; border-radius: 8px; box-shadow: 2px 2px 6px #888; max-width: 100%;" alt=" ">
+
+
+
+
 ## Synching to GitHub Desktop Exercise
 
 1. Click on Current repository near the top left of Github Desktop.
@@ -88,16 +99,13 @@ Note: it is best to have your GitHub folders within OneDrive.
 ## Organizing Data and Files on Project Repo
 
 Start by looking at previous project repos:
+
   - [Nepobabies](https://github.com/ecn310/course-project-nepobabies)
   - [Accidents](https://github.com/ecn310/course-project-taxes-tariffs/tree/main/Reproducibility_Package)
 - Sometimes you feel like something is important to keep for later—that’s fine
 - If you won’t need a file again (e.g., .zip file for schain that I asked to be replaced by .dta), delete it
   - You can always go back into an earlier version of the repo to get things back if you get rid of them accidentally
 - No need for “versioning” documents -- Github always keeps the old versions
-
-Troubleshooting Overleaf errors
-
-- If there’s a red number immediately to the right of the “Recompile” button, click it 
 
 To turn off notifications from a Github repo
 

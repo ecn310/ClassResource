@@ -2,9 +2,132 @@
 
 ## Descriptive Statistics
 
-Learning objectives ([Daniels & Minot](https://research.ebsco.com/c/gvriom/search/details/qcsbnwmqtn?db=nlebk), pp. 75-80 and 96-101):
+Learning objectives ([Daniels & Minot](https://research.ebsco.com/c/gvriom/search/details/qcsbnwmqtn?db=nlebk), pp. 75-80, 81-90, 96-101):
 
 1. List the uses for descriptive statistics in research.
 2. Distinguish between ordinal categorical variables, nominal categorical variables, continuous variables on an interval scale, and continuous variables on a ratio scale.
 3. Include the number of missing values in a frequency table and think critically about which values are missing.
 4. Make appropriate use of bar graphs and histograms.
+5. Analyze data (ordinal, interval scale, ratio scale) using the median and percentiles of a variable.
+6. Analyze continuous data using mean, variance, standard deviation, and coefficient of variation.
+
+### Median
+
+- Median is 50th percentile
+  - Equivalent: rank a variable from lowest to highest and identify the observation that falls exactly in the middle.
+- A MEAN will be skewed in one direction if there are a small number of unusually high or low values
+
+Explore using College_results.dta:
+
+- `codebook endow100000FTE`
+- `gen endowFTE = endow100000FTE*100000`
+- `codebook endow100000FTE endowFTE`
+- `histogram endowFTE`
+- `sum endowFTE`
+- `sum endowFTE,detail`
+
+### Variance
+
+- is a measure of how spread out the values of one variable are from their mean.
+- is a measure of how far each value falls from the mean.
+- is the square of the standard deviation.
+- is zero when all the values are the same.
+
+Explore 3-year federal loan default rate variable in College_results.dta
+
+- `histogram FedLoan3YrDefaultRate`
+- `sum FedLoan3YrDefaultRate, detail`
+- `codebook FedLoan3YrDefaultRate`
+
+Compare to
+
+- `codebook endowFTE`
+
+You can also go to the exercises folder and double click variance.r to explore why variance matters in the R coding language.
+
+### Descriptive Statistics exercise
+
+- You will submit individually, although you can ask others for help.
+- Choose one variable of interest in your project’s data
+  - Everyone on your team must use a different variable
+  - Explore the variable using tools we’ve learned from D&M
+- Share something you learn about the variable on the “Descriptive statistics exercise” discussion (example in first comment)
+  - Say what dataset you’re using and where it comes from
+  - Explain what the variable means
+  - Share one APPROPRIATE figure (e.g. histogram or bar chart)
+    - Calculate one related descriptive statistic (mean, median, standard deviation, frequency, etc)
+  - Explain what you’ve learned through the combination of your figure and descriptive statistic
+    - They should NOT be two unrelated facts
+    - How might this information impact your choices when doing analysis? What do you learn that makes you think about your data differently, or what questions does it raise?
+    
+**Formatting Guidelines** 
+
+- Put everything in narrative form (not bullet points) like in a report
+  - it's meant to tell a story, not be presented as Q&A. The list of questions is there to guide you. Part of what I want you to practice is how to weave facts together into a story.
+- No screenshots
+  - Especially for descriptive stats—use the stats in a sentence
+  - We're using this to start to move toward how we would write in the report, and we would never put a screenshot in a report.
+- Consider size and centering of your graph
+- The standard way of talking about skewness is really counterintuitive; I suggest saying that it's skewed, then where most of the observations are (or where few of the observations are), not "skewed toward“
+- Your narrative should say something definitive about scale and definition of your variable; you may have to dig into a codebook
+- To talk about variance, you have to contextualize with the mean--variance/standard deviation can’t be interpreted on its own
+
+
+## Null Hypothesis
+
+Daniels & Minot, pp. 121-122, 124-125 (Section 7.4, 7.6, 7.7) Learning objectives:
+
+1. Define the term null hypothesis and formulate a null hypothesis related to your research question.
+2. Use p-values (the book calls this the “alpha level”) to determine when the null hypothesis can be rejected.
+
+The alpha level (or p-value)
+
+- is the probability of rejecting the null hypothesis when it is true.
+- is the probability of a Type 1 error.
+- is typically set at 0.05.
+
+We **DO NOT ** say that we “accept” the null hypothesis when the p-value is below 0.05. This is because samples do not always accurately reflect the population.
+
+### Null hypotheses for projects
+
+- Tariffs: Domestic taxes will increase in developed countries that limit tariffs. This relationship will be stronger in countries with high import-to-GDP ratios than in countries with low import-to-GDP ratios. (?)
+- Supply Chain: **Need to find**
+- Parent: Parents in U.S. counties with higher intergenerational mobility invest more time in their children compared to parents in counties with lower intergenerational mobility
+
+
+## One-Sample t Test
+
+Daniels & Minot, pp. 133-135, 137-139 (Section 8.2, 8.4, 8.5) Learning objectives:
+
+1. Determine when it is appropriate to use the one-sample t test.
+2. Conduct one-sample t tests in Stata and interpret the results.
+
+### One sample t-test demo (Stata)
+
+```
+* Decide how many draws of data we want
+set obs 1000
+* Generate data from normal distribution with mean = 1,
+standard deviation = 0.1
+gen X = rnormal(1, 0.1)
+* Test whether mean of X is equal to 0, or to 1
+ttest X == 0
+ttest X == 1
+* Repeat above but for larger standard deviation
+gen Y = rnormal(1, 1)
+ttest Y == 0
+ttest Y == 1
+```
+
+## Two Independent-Samples t Test
+
+Daniels & Minot, pp. 144-145, 146-152 (Section 9.2, 9.4, 9.5) Learning objectives:
+
+1. Determine when it is appropriate to use a two independent-samples t test.
+2. Conduct a two independent-samples t test in Stata and interpret the results.
+
+Open GitHub\exercises\Daniels_Minot_data\College Results.dta
+
+- `ttest EndowmentTotalFTE , by(HBCU2)`
+- `ttest Endowment, by(HBCU2)`
+

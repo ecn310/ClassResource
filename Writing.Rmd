@@ -1,0 +1,138 @@
+# Writing for Research {#writing}
+
+
+## Setting Up Your Project Report Template 
+
+Let’s get set up for writing drafts and your final project (only one person should do this per team)
+
+1. Overleaf: sync your most recent changes to Github
+a. Github Desktop: check if this create a “branch”
+b. If so, you’ll have to merge the branch into your “main” branch
+2. Github desktop: sync project repo to your computer
+3. Your computer: make a copy of project_template.tex; rename the copy Projectname_report.tex
+4. Github Desktop: commit the change and push to Github
+5. Overleaf: “Pull Github changes into Overleaf”
+
+Now everyone can see your report template in Overleaf!
+
+
+
+## Using Writing as a Tool for Economic Research
+
+Learning objectives
+
+1. Construct arguments that are well supported, logical, and hierarchical
+2. Ensure that your conclusions follow from your evidence
+3. List the desirable characteristics of evidence
+
+The purpose of scholarly writing is to make an argument that is persuasive to experts in the field.
+
+- For an argument to be persuasive the reasons supporting it must be true, and the conclusion must follow from those reasons.
+
+
+### Writing as a Product of Economic Analysis
+
+Learning objectives (Greenlaw Ch. 5):
+
+1. Articulate what is required when ‘writing as product’
+- Your audience is your sponsoring professor and other academic economists
+- Your writing should be formal, clear, include sufficient (but not too many) details
+2. Describe how experienced writers allocate their time between the writing steps
+- You should spend the most time on pre-writing and revising
+3. List the five features of good economic writing
+4. Understand the importance of writing the first draft quickly (different from soon)
+- You’re not going to write the first draft of the whole report all at once
+- Data section first, then results
+5. Avoid plagiarism
+6. Realize your project’s potential by leaving time to revise and edit
+- You forego substantial improvements if you only write one draft
+- One of the most disappointing comments to write on students' final papers is "This would make an excellent first draft." In other words, it has great potential but that potential was not realized.
+
+
+### Final Project Report Sections
+
+Pull Github updates to your Overleaf team repo (1 person!) project_template.tex outlines the typical sections you should have (others are possible)
+
+- Abstract
+- Intro 
+- Lit review 
+- Theory / Hypothesis (can be in intro or separate section)
+- Data 
+- Results
+- Discussion
+- Conclusion
+- References / Bibliography 
+
+### Data vs. Results Sections
+
+- Data section:
+  - Where you got data from, how it was generated, what variables you use
+  - Give a very high-level summary of any crucial data cleaning/merging steps you had to take
+  - Include a table of summary statistics for all the variables you’re working with
+- Results section:
+  - State your working hypothesis and null hypothesis
+  - Explain why the statistics you’re presenting are appropriate
+  - Present statistics and explain what they mean (e.g., do your results support the working hypothesis?)
+  
+**Some feedback on Data and Results Outlines:**
+
+- An outline has bullet-point-like statements that convey your idea
+- Put everything in the present tense, active voice
+
+
+### Communicating the results of a research project:
+
+Greenlaw Ch. 12 Learning Objectives:
+
+1. Describe the purpose of a research report
+2. Describe how you tested your hypothesis and what you found
+
+Write introduction last!
+
+- For now, focus on getting your working hypothesis nailed down and your data ready to test it
+– Until you see the basic story that is embedded in your data, you don't really have enough to go on to even start the intro
+- Results (aka empirical analysis) section
+  - the type of statistical analysis you employed
+  - the results you hypothesized
+  - your actual results
+  - your interpretation of the results.
+
+### What does (and doesn't) go in the final report
+
+When writing the report…
+
+- Project report is NOT about the research process
+  - don't include details like how the team worked together, intermediate steps that didn’t work out, etc.
+  - report your results and anything needed to understand them
+  - Statements like "We compiled a variety of charts and graphs to analyze our data and eventually reach our conclusion." are distracting and unhelpful because this is what is always done in a report
+  - Logistics of how to get data and manipulate data go in appendix/reproducibility package
+- Say what you *did* in the body of the report
+  - say *how* you did it in the appendix/replication package
+  - no code or excessive detail in the text of the report--notice you never see that in the body of the papers you read
+  
+
+### Greenlaw on writing for research
+
+**Greenlaw Ch. 4:** Using Writing as a Tool for Economic Research
+
+The purpose of scholarly writing is to make an argument that is persuasive to experts in the field.
+
+- For an argument to be persuasive the reasons supporting it must be true, and the conclusion must follow from those reasons.
+- Construct arguments that are well supported, logical, and hierarchical (pg. 51)
+- Ensure that your conclusions follow from your evidence (pg. 53)
+
+**Greenlaw Ch. 5:** Writing as a Product of Economic Analysis
+- Ensure your thesis is clear, the paper is well-organized, and your points are supported with evidence (p. 73-76)
+- Employ good writing style to enable your readers to easily comprehend your writing (p. 82-87)
+- Pay attention to writing mechanics (p. 87-89)
+  - Mechanics: Grammarly, ChatGPT, Writing Center…
+  - DON’T double space! (Greenlaw says to, but I HATE it).
+- “Don't worry about the length of your paper. Never add ‘filler.’ If you go through the writing process described here, you will have enough to say to satisfy your assignment.
+  - Of course, this assumes that you have thought through your topic carefully and completely during the drafting and revision steps. If you haven't, filler won't help.” (p. 87)
+
+**Greenlaw Ch. 12:** Communicating the results of a research project
+
+- Results (aka empirical analysis) section: the type of statistical analysis you employed, the results you hypothesized, your actual results, your interpretation of the results (p. 241-245)
+- "page-long paragraphs suggest insufficiently deep thinking about the story you are telling. Remember, a paragraph is supposed to explain a single thought.“(p. 249)
+- Employ figures (charts, tables and other graphics) to summarize and illustrate the argument in the text of your report (p. 235)
+

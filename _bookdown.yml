@@ -16,3 +16,4 @@ rmd_files:
   - Latex.rmd
   - Data.Rmd
   - Stats.Rmd
+  - Writing.Rmd

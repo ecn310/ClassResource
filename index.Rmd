@@ -16,3 +16,4 @@ This website is designed for ECN 310 students to review course material from the
 - Section \@ref(latex): LaTeX and Overleaf
 - Section \@ref(data): Data
 - Section \@ref(stats): Statistics
+- Section \@ref(writing): Writing for Research

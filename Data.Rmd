@@ -87,3 +87,20 @@ With College Results.dta open:
   - `histogram AvgNetPriceAfterGrants, bin(10) percent`
 - What graph type would you use for variable “Size3”?
 - Can you produce at least one histogram or bar chart for your project data?
+
+## Project Data Summary Assignment (data.tex)
+
+1. Completely customize the data.tex template for your project (don't leave any of my instructions or examples).
+- This must include all six sections from my template unless you only have one data source and one data file--that is, no merging is needed
+2. Provide one complete subsection in Section 2 Data Overview (provide details for each piece I included in the template) with details for each data set you are using. If you only have one dataset, you can remove the subsection command.
+3. Section 3 should give both the instructions for downloading your data and also links to what you've downloaded.
+4. Section 4 should point to your .do file and give a summary of any manipulation you had to do. If you don't need to merge to any more data, this is where you provide a link to the dataset that is ready for analysis.
+5. If you have more than one raw data file, Section 5 says how you merge them together and this is where you provide a link to a dataset that is ready for analysis.
+6. List all your key variables in Section 6. Indicate which variables are found in which datasets (subsections work well for this if you have more than one dataset).
+  a. Include the type of each of your key variables (ordinal, nominal, interval scale, ratio scale) and what kind of descriptive statistics you’ll use for each variable (D&M Table 6.1)
+  b. These MUST line up with the variables you specify for hypothesis testing on the hypothesis assignment.
+  c. Include anything useful you've learned from the descriptive stats exercise (don't just repeat everything from your four submissions; I mean things like figuring out exactly what a variable means, that there's something strange going on with a variable that needs more investigation, etc.)
+7. Ensure there are no LaTeX errors.
+8. Submit AI disclosure statement on your data acquisition issue when you tell me data.tex is ready
+for review.
+

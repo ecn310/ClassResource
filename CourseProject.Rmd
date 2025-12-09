@@ -47,51 +47,16 @@ Each person (or group of people) who does work on a task should...
 - Good, but if Prof. Buzard can't see the details of what you've decidedv and/or done, she can't support you in getting to the end product you're going to need to do your analysis.
 - Great examples of detailed task documentation [here](https://github.com/ecn310/course-project-tariffs/issues/7#issuecomment-3418117107) and [here](https://github.com/ecn310/course-project-tariffs/issues/5#issuecomment-3417294062).
 
-## Using Writing as a Tool for Economic Research
+### Documentation Structure
 
-Learning objectives
-
-1. Construct arguments that are well supported, logical, and hierarchical
-2. Ensure that your conclusions follow from your evidence
-3. List the desirable characteristics of evidence
-
-The purpose of scholarly writing is to make an argument that is persuasive to experts in the field.
-
-- For an argument to be persuasive the reasons supporting it must be true, and the conclusion must follow from those reasons.
+- Professor Buzard will look at the data and results sections holistically with data appendix and reproducibility package
+  - When in doubt about whether to include data details in your report vs the data appendix/reproducibility package, ask for guidance
+  - You should NOT explain exactly how you coded things in the report; just say what you did in plain English, e.g. “We merged dataset1 with dataset2 using the XYZ variable.”
+  - This is flexible: depends on your project and on your preferences
+- Your instructions for the reproducibility package will be the README on your reproducibility package folder if you have one, or reproducibility.md in your main folder
+- Store analysis outputs in a folder on Github, so you can pull them (and link directly to them) into Overleaf
 
 
-### Writing as a Product of Economic Analysis
-
-Learning objectives (Greenlaw Ch. 5):
-
-1. Articulate what is required when ‘writing as product’
-- Your audience is your sponsoring professor and other academic economists
-- Your writing should be formal, clear, include sufficient (but not too many) details
-2. Describe how experienced writers allocate their time between the writing steps
-- You should spend the most time on pre-writing and revising
-3. List the five features of good economic writing
-4. Understand the importance of writing the first draft quickly (different from soon)
-- You’re not going to write the first draft of the whole report all at once
-- Data section first, then results
-5. Avoid plagiarism
-6. Realize your project’s potential by leaving time to revise and edit
-- You forego substantial improvements if you only write one draft
-- One of the most disappointing comments to write on students' final papers is "This would make an excellent first draft." In other words, it has great potential but that potential was not realized.
-
-
-### Final Project Report Sections
-
-Pull Github updates to your Overleaf team repo (1 person!) project_template.tex outlines the typical sections you should have (others are possible)
-
-- Abstract
-- Intro 
-- Lit review 
-- Theory / Hypothesis (can be in intro or separate section)
-- Data 
-- Results
-- Discussion
-- Conclusion
-- References / Bibliography 
 
 ### Sketch of to-do list (mostly in order)
 
@@ -105,23 +70,6 @@ Pull Github updates to your Overleaf team repo (1 person!) project_template.tex 
 8. Expand and finalize Lit Review, References
 9. Finalize Intro and Conclusion
 10. Write Abstract
-
-### Communicating the results of a research project:
-
-Greenlaw Ch. 12 Learning Objectives:
-
-1. Describe the purpose of a research report
-2. Describe how you tested your hypothesis and what you found
-
-Write introduction last!
-
-- For now, focus on getting your working hypothesis nailed down and your data ready to test it
-– Until you see the basic story that is embedded in your data, you don't really have enough to go on to even start the intro
-- Results (aka empirical analysis) section
-  - the type of statistical analysis you employed
-  - the results you hypothesized
-  - your actual results
-  - your interpretation of the results.
 
 ## Reproducibility Package
 
@@ -185,6 +133,30 @@ Examples from previous projects [here](https://github.com/ecn310/course-project-
   - Make sure you include time to ensure do-files are well-commented
 - Examples [here](https://github.com/ecn310/course-project-zipcentercrime/discussions/18) and [here](https://github.com/ecn310/course-project-taxes-tariffs/discussions/20)
 
+### Reproducible Research Requirements
+
+You can refer to the [World Bank's](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.1-summary-publishing-reproducible-research-outputs) research handbook to obtain an understanding of these, as well.
+
+1. Raw data should:
+  a. not be modified in any way;
+  b. contain all observations originally collected in a widely accessible format, with a data codebook describing all variables;
+  c. have original documentation about the collection of the data, such as API script or step-by-step instructions, in EXCRUCIATING detail;
+2. Raw data to research outputs section should contain
+  a. all code required to derive analysis data from downloaded data;
+  b. all code required to reproduce research outputs from analysis data;
+c. a README with documentation on the use and structure of the code;
+    i. should explain any intermediate datasets
+    ii. should give location and how to access all files, including figures
+3. The research report should
+  a. be written and maintained as a dynamic LaTeX file
+  b. be written in Overleaf
+    i. .tex file can be pushed to Github from Overleaf
+    ii. You’ll have to download the PDF from Overleaf and upload to Github once the report is final;
+  c. [in a Data Appendix] contain instructions about where to find / how to access your reproducibility package (all your documentation, data and code);
+  d. be recompiled with all final figures, tables, and other code outputs before submission.
+
+
+
 ### Master documentation file
 
 This is a critical piece of the reproducibility package. It will encompass and contain information on every piece of your project.
@@ -195,6 +167,7 @@ This is a critical piece of the reproducibility package. It will encompass and c
   - Anything you've created (and not deleted) for the project should show up here as a link
   - It will be updated each week for anything new you create or major decisions you make
 - Explain what every file in your Github repo does (this is a good time to prune your files if needed)
+- Organize it by topic: keep everything related to data together, everything related to literature together, etc.
 - Examples [here](https://github.com/ecn310/course-project-accidentsteam/wiki), [here](https://github.com/ecn310/course-project-diop/wiki), [here](https://github.com/ecn310/course-project-migration/wiki), and [here](https://github.com/ecn310/course-project-nepobabies/wiki)
 
 
@@ -208,6 +181,57 @@ This is a critical piece of the reproducibility package. It will encompass and c
   - If in report, just point to that in documentation instead of repeating
 - All sentences are complete and grammatical (or in bullet point form). All words are chosen for their precise meanings. Key concepts are completely explained. Submission has been spell-checked and proofread and has no errors.
 
+## Project Terminology
+
+- Reproducibility is a concept
+  - Good documentation helps make a project reproducible
+  - You create a reproducibility package to facilitate reproducibility
+- Literature review
+  - You’ve done pre-work via your paper summaries
+- Analysis is a general term for your statistical work
+  - Results is the title of the section of the report that talks about your analysis and what you learn from it
+- Observations vs. variables
+  - Observations represent the units of data that you have, like firms or people or counties. Variables are the things that you have data for each observation, e.g., a firm's revenue, a person's age, etc.
+- LaTeX is the markup language we use in Overleaf
+  - Overleaf is an online app that organizes and compiles LaTeX code
+- You can have many different LaTeX (.tex) files in Overleaf
+- Comments: % in LaTeX (# in R, * in Stata)
+
+## Presentations
+
+### Preliminary Results
+
+- 3-5 minute presentation on
+  - Working hypothesis
+  - Null hypothesis
+  - Data you use to test null hypothesis
+  - Descriptive stats on each variable plus relationship between them (testing your hypothesis)
+    - Include all the figures, statistics, and tables that you plan to put in your report
+- Then workshop / feedback
+- You can put everything into the results section of your project report (.tex in Overleaf), a Github discussion, or PowerPoint/Google Slides/etc.
+
+### Full Presentations
+
+Also like a workshop, lasts 5-7 minutes. It must include...
+
+- Research question, hypothesis, null hypothesis, theory
+- Your data: where it comes from, summary stats for all the variables you’re using
+  - Probably graphs to give context
+- Your analysis: tests of your hypothesis, anything else that’s needed to explain why this is the right test or to tell your story
+- Include all the figures, statistics, and tables that you plan to put in your final report
+- Same presentation formats acceptable as for the preliminary results presentations
+
 ## Rubric
 
 [Here](https://github.com/ecn310/ClassResource/blob/main/Course_Project_Rubric.pdf) is the rubric for your final submission of the course project, including the final report and the reproducibility package.
+
+## AI Disclosure Statements
+
+- The AI disclosure statement is for the purposes of our coursework, so it belongs on the relevant Github issue, NOT in the report
+- Be very clear about what work you’re talking about
+  - “AI Disclosure Statement: No artificial intelligence was used in the process of creating this work.”
+  - What is “this work”? On a Github issue, this might only apply to the single post it’s attached to
+- Be detailed about what you use AI for: helping you to code, writing your code (don’t!), proofreading, troubleshoot your graphs, improving organization, etc.
+- It’s fine to use no AI in a given assignment, but
+  - your proofreading has to come from somewhere
+  - I use Claude or ChatGPT to troubleshoot LaTeX compilation errors (full credit requires that your .tex file has zero compilation errors)

@@ -64,6 +64,10 @@ LaTeX write up for data.tex...
 - List at least four key variables in Section 6 (and potentially a dozen or more). Indicate which variables are found in which datasets (subsections work well for this if you have more than one dataset)
 - Ensure there are no LaTeX compilation errors
 
+**Troubleshooting Overleaf errors:**
+
+- If there’s a red number immediately to the right of the “Recompile” button, click it 
+
 **First Feedback on data.tex**
 
 - PLEASE do things early to get feedback and improve the final submission!!!
@@ -77,3 +81,39 @@ LaTeX write up for data.tex...
 
 - different from Github’s 100mb limit -- Overleaf's is 50mb
 - It's also MUCH better practice to upload files directly to the Github file structure; otherwise, it's hard to find where that single link is on an issue
+
+### Tables and Figures in the Report
+
+[Insert figures](https://www.learnlatex.org/en/lesson-07) in LaTeX
+[Insert tables](https://www.learnlatex.org/en/lesson-08) in LaTeX (must be customized)
+
+```
+\begin{table}[htbp]
+  \caption{\textbf{enter caption here}}
+  \label{tab:mlogit}
+  \scriptsize
+  \begin{center}
+    \input{file_from_outreg.tex}
+  \end{center}
+  \flushleft
+  \begin{footnotesize}
+    \begin{singlespace}
+      \textbf{Notes}: Description of your table here.
+    \end{singlespace}
+  \end{footnotesize}
+\end{table}
+```
+
+### Tables in your presentation & report
+
+Options for putting tables in report
+
+1. [RECOMMENDED #1] Use [outreg2](https://libguides.princeton.edu/c.php?g=1322965&p=9734327#s-lg-box-wrapper-36285290) to output the table formatted in LaTeX ([some helpful slides](https://www.princeton.edu/~otorres/Outreg2.pdf))
+- Outreg output gets stored with your other research outputs, and contents can be imported into your .tex file using the “input” command inside a table
+  - Save as .tex instead of .doc
+  - Use in `\input` statement from the insert table code above.
+- You need to submit the command “ssc install outreg2” at the command line in Stata to install outreg
+2. [RECOMMENDED #2] Represent output with figure instead of table (case specific, have to think about this)
+3. [TERRIBLE IDEA] Make the table manually in LaTeX
+- Instructions [here](https://www.learnlatex.org/en/lesson-08)
+- This is really annoying because you have to edit it manually every time your data changes; bad for reproducibility
