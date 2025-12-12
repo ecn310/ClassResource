@@ -406,3 +406,45 @@ Sync the exercises repo to your machine
 - Open combining_datasets folder
 - Open combining_datasets_exercise.do
 - You could also take a look at the excel file, but make sure to close it before running any of the code
+
+
+## Different Users, Different File Paths
+
+If you’re getting annoyed at having to change your do-file “cd” command when you switch between computers or users, I suggest putting the following where you currently have your `cd` command
+
+```
+if strpos("`c(username)'", "lgee01") {
+  global path "C:\Users\LGEE01\Documents\GitHub\ParentalInvolvementRA"
+  }
+else if strpos("`c(username)'", "krist") {
+  global path "C:\Users\krist\GitHub\ParentalInvolvementRA"
+}
+cd "$path“
+```
+
+Add additional `else if` statements for more users/machines.
+
+## Creating Figures in Stata
+
+- DON’T USE GRAPH EDITOR
+  - There’s no easy way to make it reproducible
+  - Use GUIs (menus) instead: https://www.theanalysisfactor.com/stata-tutorial-graphics-menu/
+- Full manual when you need it: https://www.stata.com/manuals/g.pdf
+- Cheatsheet: https://www.stata.com/bookstore/statacheatsheets.pdf
+- Edit axis range: https://grodri.github.io/stata/graphics
+
+## The “do” command and master do files
+
+- If you have more than two do-files you must have a master do file
+  - If you only have one do file, this is obviously silly
+- This [explainer on master do-files](https://dimewiki.worldbank.org/Master_Do-files) gives an example
+  - “do filename” causes Stata to execute the commands stored in filename just as if they were entered from the keyboard or in the do file directly
+- If you have one do file for data preparation and another for analysis, you can
+
+1. Instruct people two run the files in order [NOT GREAT, but
+okay]
+2. Paste the contents of the cleaning do file directly into the
+analysis do file (okay if there are only two files both are short)
+3. Create a master do file [RECOMMENDED]
+  i. Put version and cd commands at top
+  ii. Add do yourdofilename.do for each do file in order

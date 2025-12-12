@@ -105,6 +105,62 @@ Detailed documentation should be linked in your master file & your log
   - I suggest Issues on Github (example here), but you can choose the location
 
 
+### Data Portion
+
+- Full set of instructions for downloading raw data and transforming it into your analysis dataset.
+  - I strongly suggest you add links to your analysis do-file(s) and output (graphs, tables, etc),
+- Instructions live in README.md in your reproducibility package folder or reproducibility.md in main folder
+  - .md file must accurately represent your current data
+  - Include each file’s name, a link to it, and a short description
+  - At least: raw data, do-file, log, analysis data
+
+
+### Reproducibility package file structure
+
+A reproducibility package usually has three top-level folders
+
+1. Data
+
+  - Can have one for raw data and one for processed data if there are lots of files
+
+2. Code (do files and log files)
+
+  - One folder that contains all your do files and logs
+  - Use do-file name as log name as well, just with .log instead of .do (e.g., cleaning.do and cleaning.log)
+
+3. Outputs folder
+  
+  - Contains all figures & tables for your report
+  - Once you pull them into Overleaf, you link directly to them in your report
+
+Working on the reproducibility package requires analyzing the structure of your repo and adjusting if it’s hard to explain
+
+- It’s one of these writing as creativity things from Greenlaw
+
+
+### Pulling together your reproducibility package
+
+- Decide whether to have a separate reproducibility package folder or if the three folders on last slide will live in your main Github repo folder
+- Move data acquisition and manipulation information from data.tex into
+  - README.md in your reproducibility package folder; or
+  - reproducibility.md in main folder if no reproducibility package folder
+- Some of the description and links you need are likely already assembled in your main README.md
+  - move this information to the reproducibility markdown file
+  - link to it from your main README.md (don't keep two copies of the same information—it gets out of sync easily)
+
+
+### What to include in reproducibility package
+
+- Step-by-step instructions for accessing and downloading your raw data in EXCRUCIATING detail
+  - Raw data should not be modified in any way – just what you get when you follow your download instructions
+- Codebook listing and defining all variables you keep in your dataset (directly in README.md unless its very long)
+- Location and how to access all files (most are on Github, but maybe you also have something on OneDrive)
+- Link to all code required to turn downloaded data into analysis data
+  - How to use your code on another computer (which files to run in what order, where to change directory in any cd commands)
+  - You will comment/explain your code well in your do-file, so do NOT include step-by-step instructions from within each do-file
+  - Just give an overview of what the do-file does along with its name and location
+
+
 ### Reproducibility Package Ideas
 
 [Example](https://github.com/worldbank/rio-safe-space) on Github from World Bank
@@ -133,6 +189,16 @@ Examples from previous projects [here](https://github.com/ecn310/course-project-
   - Make sure you include time to ensure do-files are well-commented
 - Examples [here](https://github.com/ecn310/course-project-zipcentercrime/discussions/18) and [here](https://github.com/ecn310/course-project-taxes-tariffs/discussions/20)
 
+### Notes on reproducibility package
+
+- You don’t need to save simple tests and other statistics in an output file if you have a log that shows all the output
+- Make sure do-files are well-commented
+  - do NOT include step-by-step instructions from within each do- file in your README. Just give overview of what the do-file does along with its name and location
+- Move any files that you want to keep but that are not necessary for reproducibility to a clearly-labeled folder (something like “deprecated” or “working_files”)
+- Use version command to set the minimum Stata version your code works on
+  - The first line of your master do file (or each individual do file) should be something like version 18
+- Your outside tester has to be able to access to Stata!
+
 ### Reproducible Research Requirements
 
 You can refer to the [World Bank's](https://worldbank.github.io/dime-data-handbook/publication.html#box-7.1-summary-publishing-reproducible-research-outputs) research handbook to obtain an understanding of these, as well.
@@ -155,6 +221,16 @@ c. a README with documentation on the use and structure of the code;
   c. [in a Data Appendix] contain instructions about where to find / how to access your reproducibility package (all your documentation, data and code);
   d. be recompiled with all final figures, tables, and other code outputs before submission.
 
+
+### Reproducibility package to outside tester
+
+- Full set of instructions for downloading raw data and transforming it into your analysis dataset
+- Full set of instructions for producing your research output (graphs, tables, etc), including file paths, do-files, and logs
+- Instructions live in README.md in your reproducibility package folder or reproducibility.md in main folder
+  - .md file must accurately represent your current data
+  - Include each file’s name, a link to it, and a short description
+  - At least: raw data, do-file, log, analysis data
+- Make your project repo public so outside tester can access it
 
 
 ### Master documentation file

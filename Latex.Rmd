@@ -117,3 +117,15 @@ Options for putting tables in report
 3. [TERRIBLE IDEA] Make the table manually in LaTeX
 - Instructions [here](https://www.learnlatex.org/en/lesson-08)
 - This is really annoying because you have to edit it manually every time your data changes; bad for reproducibility
+
+### Integrating Figures/Tables into LaTeX (Overleaf)
+
+- Figures need to have notes that explain what’s in them
+  - You can usually do this in Stata, and you can always do this in LaTeX as well
+- Create a folder for outputs (you can call it "figures_tables“, “outputs”, or whatever you want that makes sense)
+  - Use Stata to save all your figures in there
+    - Then pull into Overleaf
+  - Then add the figure / table to Overleaf from this folder
+    - [Insert figures in LaTeX](https://www.learnlatex.org/en/lesson-07)
+    - [Insert tables in LaTeX](https://www.learnlatex.org/en/lesson-08)
+    - [Referencing figures](https://www.overleaf.com/learn/latex/Referencing_Figures) (and tables, sections, equations, etc) in LaTeX

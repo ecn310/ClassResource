@@ -80,6 +80,17 @@ Pull Github updates to your Overleaf team repo (1 person!) project_template.tex 
 - Put everything in the present tense, active voice
 
 
+#### Data details that go in the report
+
+This framework ensures that your report remains concise and focused while the appendix and reproducibility package provide comprehensive technical details.
+
+- **High-Level Description of the Data:** Include a summary of the data source(s), key variables, number of observations, and the time or geographical scope of the data
+  - Describe your variables in the Data Section so the reader can understand your Results Section—that's the whole point of the data section
+- **Core Assumptions and Transformations:** Mention any essential preprocessing steps that significantly affect your results (e.g., normalizations, filtering criteria, etc.)
+- **Key Descriptive Statistics:** Provide tables or figures with summary statistics of the most critical variables used in your analysis
+- **Connection to Research Question:** Focus on how the data and variables directly tie into answering your hypothesis or research question
+
+
 ### Communicating the results of a research project:
 
 Greenlaw Ch. 12 Learning Objectives:
@@ -111,7 +122,7 @@ When writing the report…
   - no code or excessive detail in the text of the report--notice you never see that in the body of the papers you read
   
 
-### Greenlaw on writing for research
+### Greenlaw and Daniel's & Minot on writing for research
 
 **Greenlaw Ch. 4:** Using Writing as a Tool for Economic Research
 
@@ -136,3 +147,72 @@ The purpose of scholarly writing is to make an argument that is persuasive to ex
 - "page-long paragraphs suggest insufficiently deep thinking about the story you are telling. Remember, a paragraph is supposed to explain a single thought.“(p. 249)
 - Employ figures (charts, tables and other graphics) to summarize and illustrate the argument in the text of your report (p. 235)
 
+
+Learning objectives
+
+1. Use your introduction to provide the rationale for your research and summarize your results
+2. Employ figures (charts, tables and other graphics) to summarize and illustrate the argument in the text of your report
+3. Highlight the literature that sheds light on your research question in the written literature review
+
+- Write introduction last!
+  - It’s a summary of your whole “story”
+  - There’s no use writing it until you know what the story is
+- The purpose of charts, tables, and other graphics is to summarize and illustrate the argument in the text
+  - Every figure should be designed to be easily understood independent of the text
+
+
+The literature review should include the following:
+
+- the major published studies on your topic.
+- a short discussion of what is lacking in the literature.
+- how your project contributes to the literature.
+
+The summaries you did were NOT complete—they focused on question, theory, hypothesis
+
+- You’ll need to add methods/results to your current summaries
+- Summarize any additional papers you’ve found since then
+- Minimum 7 papers total; should probably be closer to ten (more is fine)
+- In your outline (and the prose version you write later), use author names and years in parentheses to refer to papers, not full paper titles
+  - [BibTex](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) will do this for you
+
+**Daniels & Minot Ch. 15.5-6**
+
+- Data
+  - They say: summary stat table in Results Section, but put it in Data Section
+- Results
+  - Can include an interpretation of the results / possible policy implications
+    - Or: this can go in a separate “Discussion” section
+  - We don't put correlations tables into papers.
+    - See D&M 15.5.3 for instructions about how to report these kinds of results
+    - Including the result in the log of a do-file is sufficient for reproducibility
+- Discussion
+  - Interpret your results and place them within the context of the literature
+  - Offer recommendations, identify limitations, suggest future research
+  - Can go in results if short
+- Conclusion
+  - Summarize the main findings of the paper, relate them back to the big ideas presented in the introduction, and emphasize their importance
+
+## Outlines
+
+### Some feedback on Data and Results Outlines
+
+- An outline has bullet-point-like statements that convey your idea
+- Put everything in the present tense, active voice
+
+### Outline Lit Review / Add References
+
+- Follow instructions from Greenlaw Ch. 12 and the report template (should have been carried over into your report)
+- Your lit review should not contain much theory
+  - Maybe a little if you are borrowing heavily from another paper(s)
+  - You should definitely be up front about this if you are
+    - I had you find the theories in related papers to help you brainstorm a theory that makes sense for your project
+- This does NOT mean all that material should go in the lit review
+- Your lit review is primarily about comparing / contrasting what you're doing to the similar papers in the literature
+
+### Outline Intro/Discussion/Conclusions
+
+- Follow instructions from Greenlaw Ch. 12 and the report template (your story has to congeal this week!!!)
+- You will delete the questions like “Why should the reader care?” when you turn this into prose, but you can leave them for now
+- Revise the hypothesis/theory portion of intro given feedback on tomorrow’s submission
+- Submit AI Disclosure Statement on the relevant Github issue in your repo
+- Make sure there are zero compilation errors in LaTeX

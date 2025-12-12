@@ -48,7 +48,15 @@ Note: it is best to have your GitHub folders within OneDrive.
 
 <img src="gh_ol_syncing_solution.png" style="border: 1px solid black; border-radius: 8px; box-shadow: 2px 2px 6px #888; max-width: 100%;" alt=" ">
 
+### Merge conflicts in Github
 
+When you don’t keep Overleaf up to date with Github, you usually end up with a merge conflict.
+
+- Github will create a branch of your repo and you’ll need to resolve the conflict
+  - Go to the main page of your repo
+  - Click on Branches near the top left
+  - Find the branch that was just created, and click on three dots at right, choose “new pull request”
+  - Then, follow the directions [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)
 
 
 ## Synching to GitHub Desktop Exercise
